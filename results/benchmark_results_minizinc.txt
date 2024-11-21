@@ -1,0 +1,63 @@
+MiniZinc - easy instance 0: 8.94 seconds (Completed)
+Schedule:
+Patient 1 has visit "TAC" on day 1 at time 1
+Patient 2 has visit "TAC" on day 1 at time 1
+Total days: 2
+Total waiting time: 0
+----------
+==========
+
+
+MiniZinc - easy instance 1: 23.62 seconds (Completed)
+Schedule:
+Patient 1 has visit "TAC" on day 1 at time 1
+Patient 1 has visit "Blood Sample" on day 1 at time 3
+Patient 2 has visit "Blood Sample" on day 1 at time 1
+Total days: 2
+Total waiting time: 0
+----------
+==========
+
+
+MiniZinc - easy instance 2: 3.51 seconds (Completed)
+Schedule:
+Patient 1 has visit "Radiography" on day 1 at time 1
+Total days: 1
+Total waiting time: 0
+----------
+==========
+
+
+MiniZinc - easy instance 3: 3.55 seconds (Completed)
+Schedule:
+Patient 1 has visit "Radiography" on day 1 at time 1
+Total days: 1
+Total waiting time: 0
+----------
+==========
+
+
+MiniZinc - average instance 0: 335.49 seconds (Timeout)
+=====UNKNOWN=====
+
+
+MiniZinc - average instance 1: 370.27 seconds (Timeout)
+=====UNKNOWN=====
+
+
+MiniZinc - average instance 2: 349.47 seconds (Timeout)
+=====UNKNOWN=====
+
+
+MiniZinc - average instance 3: 353.05 seconds (Timeout)
+=====UNKNOWN=====
+
+
+MiniZinc - hard instance 0: 363.45 seconds (Timeout)
+=====UNKNOWN=====
+
+
+MiniZinc - hard instance 1: 382.49 seconds (Timeout)
+=====UNKNOWN=====
+
+

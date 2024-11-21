@@ -1,0 +1,7 @@
+num_days = 5;
+num_time_slots = 60;
+num_patients = 2;
+num_visits = 2;
+duration = [2, 1];
+lab_names = ["TAC", "Blood Sample"];
+required = [| 1, 1 | 0, 1 |];

@@ -1,0 +1,1734 @@
+ASP - easy instance 0: 0.09 seconds
+clingo version 5.7.1
+Reading from hospital_constraints.lp ...
+Solving...
+Answer: 1
+schedule(1,2,1,1) schedule(2,2,1,1)
+Optimization: 20
+OPTIMUM FOUND
+
+Models       : 1
+  Optimum    : yes
+Optimization : 20
+Calls        : 1
+Time         : 0.043s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.041s
+
+
+ASP - easy instance 1: 0.42 seconds
+clingo version 5.7.1
+Reading from hospital_constraints.lp ...
+Solving...
+Answer: 1
+schedule(1,2,2,1) schedule(1,4,1,1) schedule(2,4,1,1)
+Optimization: 40
+Answer: 2
+schedule(1,2,1,5) schedule(1,4,1,1) schedule(2,4,1,1)
+Optimization: 23
+OPTIMUM FOUND
+
+Models       : 2
+  Optimum    : yes
+Optimization : 23
+Calls        : 1
+Time         : 0.377s (Solving: 0.01s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.343s
+
+
+ASP - easy instance 2: 0.04 seconds
+clingo version 5.7.1
+Reading from hospital_constraints.lp ...
+Solving...
+Answer: 1
+schedule(1,1,1,1)
+Optimization: 10
+OPTIMUM FOUND
+
+Models       : 1
+  Optimum    : yes
+Optimization : 10
+Calls        : 1
+Time         : 0.025s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.023s
+
+
+ASP - easy instance 3: 0.04 seconds
+clingo version 5.7.1
+Reading from hospital_constraints.lp ...
+Solving...
+Answer: 1
+schedule(1,1,1,1)
+Optimization: 10
+OPTIMUM FOUND
+
+Models       : 1
+  Optimum    : yes
+Optimization : 10
+Calls        : 1
+Time         : 0.026s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.025s
+
+
+ASP - average instance 0: 5.25 seconds
+clingo version 5.7.1
+Reading from hospital_constraints.lp ...
+Solving...
+Answer: 1
+schedule(2,1,1,31) schedule(2,3,2,60) schedule(2,4,4,1) schedule(3,3,3,2) schedule(3,4,5,1) schedule(4,4,5,1) schedule(5,3,4,2) schedule(5,4,5,1) schedule(4,1,4,1) schedule(1,3,5,52)
+Optimization: 380
+Answer: 2
+schedule(2,1,1,31) schedule(2,3,2,60) schedule(2,4,4,1) schedule(3,3,3,2) schedule(3,4,5,1) schedule(4,4,5,1) schedule(5,3,4,2) schedule(5,4,5,1) schedule(4,1,4,1) schedule(1,3,4,28)
+Optimization: 370
+Answer: 3
+schedule(2,1,1,31) schedule(2,3,2,60) schedule(2,4,4,1) schedule(3,3,3,4) schedule(3,4,5,1) schedule(4,4,5,1) schedule(5,3,4,2) schedule(5,4,5,1) schedule(4,1,4,1) schedule(1,3,1,1)
+Optimization: 340
+Answer: 4
+schedule(2,1,1,31) schedule(2,3,2,60) schedule(2,4,4,1) schedule(3,4,5,1) schedule(4,4,5,1) schedule(5,3,4,3) schedule(5,4,5,1) schedule(4,1,4,1) schedule(3,3,1,1) schedule(1,3,1,1)
+Optimization: 320
+Answer: 5
+schedule(2,1,1,31) schedule(2,3,2,60) schedule(2,4,4,1) schedule(3,4,5,1) schedule(4,1,4,2) schedule(4,4,5,1) schedule(5,4,5,1) schedule(3,3,2,1) schedule(5,3,2,1) schedule(1,3,1,54)
+Optimization: 310
+Answer: 6
+schedule(2,1,1,31) schedule(2,3,2,60) schedule(2,4,4,1) schedule(3,4,5,1) schedule(4,1,4,2) schedule(4,4,5,1) schedule(5,4,5,1) schedule(3,3,2,1) schedule(5,3,1,1) schedule(1,3,1,55)
+Optimization: 300
+Answer: 7
+schedule(2,1,1,31) schedule(2,3,2,60) schedule(2,4,4,1) schedule(3,3,1,4) schedule(3,4,5,1) schedule(4,1,4,4) schedule(4,4,5,1) schedule(5,3,1,3) schedule(5,4,5,1) schedule(1,3,1,60)
+Optimization: 290
+Answer: 8
+schedule(2,1,1,31) schedule(2,3,2,60) schedule(2,4,4,1) schedule(3,4,5,1) schedule(4,1,1,2) schedule(4,4,5,1) schedule(5,3,2,3) schedule(5,4,5,1) schedule(3,3,2,1) schedule(1,3,1,60)
+Optimization: 280
+Answer: 9
+schedule(2,1,1,31) schedule(2,3,2,60) schedule(2,4,4,1) schedule(3,4,5,1) schedule(4,4,5,1) schedule(5,4,5,1) schedule(4,1,1,1) schedule(3,3,2,1) schedule(5,3,1,1) schedule(1,3,1,60)
+Optimization: 270
+Answer: 10
+schedule(2,1,1,31) schedule(2,3,2,60) schedule(2,4,4,1) schedule(3,4,5,1) schedule(4,4,5,1) schedule(4,1,5,5) schedule(5,3,1,3) schedule(5,4,5,1) schedule(3,3,2,1) schedule(1,3,1,60)
+Optimization: 263
+Answer: 11
+schedule(2,1,1,31) schedule(2,3,2,60) schedule(2,4,4,1) schedule(3,4,5,1) schedule(4,4,5,1) schedule(4,1,5,5) schedule(5,4,5,1) schedule(5,3,5,5) schedule(3,3,2,1) schedule(1,3,1,60)
+Optimization: 256
+Answer: 12
+schedule(2,1,1,31) schedule(2,3,1,59) schedule(2,4,4,1) schedule(3,4,5,1) schedule(3,3,5,5) schedule(4,4,5,1) schedule(4,1,5,5) schedule(5,4,5,1) schedule(5,3,1,1) schedule(1,3,1,60)
+Optimization: 253
+Answer: 13
+schedule(2,1,1,31) schedule(2,3,2,59) schedule(2,4,4,1) schedule(3,4,5,1) schedule(3,3,5,5) schedule(4,4,5,1) schedule(4,1,5,11) schedule(5,4,5,1) schedule(5,3,1,1) schedule(1,3,1,60)
+Optimization: 252
+Answer: 14
+schedule(2,1,1,31) schedule(2,3,2,59) schedule(2,4,4,1) schedule(3,4,5,1) schedule(3,3,5,5) schedule(4,4,5,1) schedule(4,1,5,8) schedule(5,4,5,1) schedule(5,3,1,1) schedule(1,3,1,60)
+Optimization: 249
+Answer: 15
+schedule(2,1,1,31) schedule(2,3,2,59) schedule(2,4,4,1) schedule(3,4,5,1) schedule(3,3,5,5) schedule(4,4,5,1) schedule(4,1,5,5) schedule(5,4,5,1) schedule(5,3,1,1) schedule(1,3,1,60)
+Optimization: 246
+Answer: 16
+schedule(2,1,1,31) schedule(2,3,2,59) schedule(2,4,4,1) schedule(3,4,5,1) schedule(3,3,5,8) schedule(4,4,5,1) schedule(4,1,5,8) schedule(5,4,5,1) schedule(5,3,5,5) schedule(1,3,1,60)
+Optimization: 245
+Answer: 17
+schedule(2,1,1,31) schedule(2,3,1,60) schedule(2,4,4,1) schedule(3,4,5,1) schedule(3,3,5,7) schedule(4,4,4,1) schedule(4,1,4,5) schedule(5,4,5,1) schedule(5,3,5,10) schedule(1,3,1,60)
+Optimization: 244
+Answer: 18
+schedule(2,1,1,31) schedule(2,3,1,27) schedule(2,4,4,1) schedule(3,4,5,1) schedule(3,3,5,7) schedule(4,1,5,39) schedule(4,4,5,15) schedule(5,3,5,22) schedule(5,4,5,17) schedule(1,3,1,60)
+Optimization: 243
+Answer: 19
+schedule(2,1,1,31) schedule(2,3,1,28) schedule(2,4,4,1) schedule(3,4,5,1) schedule(3,3,5,7) schedule(4,1,5,39) schedule(4,4,5,15) schedule(5,3,5,22) schedule(5,4,5,17) schedule(1,3,1,60)
+Optimization: 242
+Answer: 20
+schedule(2,1,1,31) schedule(2,3,1,28) schedule(2,4,4,1) schedule(3,4,5,1) schedule(3,3,5,7) schedule(4,1,5,32) schedule(4,4,5,17) schedule(5,3,5,22) schedule(5,4,5,17) schedule(1,3,1,60)
+Optimization: 233
+Answer: 21
+schedule(2,1,1,31) schedule(2,3,1,27) schedule(2,4,4,1) schedule(3,4,5,1) schedule(3,3,5,7) schedule(4,1,5,30) schedule(4,4,5,17) schedule(5,3,5,22) schedule(5,4,5,17) schedule(1,3,1,60)
+Optimization: 232
+Answer: 22
+schedule(2,1,1,31) schedule(2,3,1,28) schedule(2,4,4,1) schedule(3,4,5,1) schedule(3,3,5,7) schedule(4,1,5,30) schedule(4,4,5,17) schedule(5,3,5,22) schedule(5,4,5,17) schedule(1,3,1,60)
+Optimization: 231
+Answer: 23
+schedule(2,1,1,31) schedule(2,3,1,28) schedule(2,4,4,1) schedule(3,4,5,1) schedule(3,3,5,7) schedule(4,1,5,29) schedule(4,4,5,17) schedule(5,3,5,22) schedule(5,4,5,17) schedule(1,3,1,60)
+Optimization: 230
+Answer: 24
+schedule(2,1,1,31) schedule(2,3,1,28) schedule(2,4,4,1) schedule(3,4,5,1) schedule(3,3,5,7) schedule(4,1,5,24) schedule(4,4,5,17) schedule(5,3,5,22) schedule(5,4,5,17) schedule(1,3,1,60)
+Optimization: 225
+Answer: 25
+schedule(2,1,1,31) schedule(2,3,1,28) schedule(2,4,4,1) schedule(3,4,5,1) schedule(3,3,5,7) schedule(4,1,5,22) schedule(4,4,5,17) schedule(5,3,5,22) schedule(5,4,5,17) schedule(1,3,1,60)
+Optimization: 223
+Answer: 26
+schedule(2,1,1,31) schedule(2,3,1,28) schedule(2,4,4,1) schedule(3,4,5,1) schedule(3,3,5,7) schedule(4,1,5,21) schedule(4,4,5,17) schedule(5,3,5,22) schedule(5,4,5,17) schedule(1,3,1,60)
+Optimization: 222
+Answer: 27
+schedule(2,1,4,24) schedule(2,3,4,21) schedule(2,4,4,17) schedule(3,4,5,1) schedule(3,3,5,7) schedule(4,1,5,21) schedule(4,4,5,17) schedule(5,3,5,22) schedule(5,4,5,17) schedule(1,3,1,60)
+Optimization: 221
+Answer: 28
+schedule(2,4,4,1) schedule(2,1,4,5) schedule(2,3,4,6) schedule(3,4,5,1) schedule(3,3,5,7) schedule(4,1,5,21) schedule(4,4,5,17) schedule(5,3,5,22) schedule(5,4,5,17) schedule(1,3,1,60)
+Optimization: 219
+Answer: 29
+schedule(2,1,4,19) schedule(2,3,4,20) schedule(2,4,4,15) schedule(3,4,5,1) schedule(3,3,5,7) schedule(4,1,5,15) schedule(4,4,5,11) schedule(5,4,5,1) schedule(5,3,5,5) schedule(1,3,1,60)
+Optimization: 218
+Answer: 30
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,3,3,6) schedule(3,4,3,2) schedule(4,1,2,60) schedule(4,4,5,17) schedule(5,3,5,22) schedule(5,4,5,17) schedule(1,3,1,60)
+Optimization: 217
+Answer: 31
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,3,3,13) schedule(3,4,3,2) schedule(4,4,5,17) schedule(5,3,5,22) schedule(5,4,5,17) schedule(4,1,1,1) schedule(1,3,1,60)
+Optimization: 214
+Answer: 32
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,3,3,10) schedule(3,4,3,2) schedule(4,4,5,17) schedule(5,3,5,22) schedule(5,4,5,17) schedule(4,1,1,1) schedule(1,3,1,60)
+Optimization: 211
+Answer: 33
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,3,3,6) schedule(3,4,3,2) schedule(4,4,5,17) schedule(5,3,5,22) schedule(5,4,5,17) schedule(4,1,1,1) schedule(1,3,1,60)
+Optimization: 207
+Answer: 34
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,3,3,6) schedule(3,4,3,2) schedule(4,1,5,21) schedule(4,4,5,12) schedule(5,3,5,22) schedule(5,4,5,17) schedule(1,3,1,60)
+Optimization: 205
+Answer: 35
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,3,3,6) schedule(3,4,3,2) schedule(4,1,5,9) schedule(4,4,5,3) schedule(5,3,5,22) schedule(5,4,5,17) schedule(1,3,1,60)
+Optimization: 202
+Answer: 36
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,3,3,6) schedule(3,4,3,2) schedule(4,1,5,15) schedule(4,4,5,11) schedule(5,3,5,22) schedule(5,4,5,17) schedule(1,3,1,60)
+Optimization: 200
+Answer: 37
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,3,3,6) schedule(3,4,3,2) schedule(4,1,5,15) schedule(4,4,5,11) schedule(5,4,5,1) schedule(5,3,5,5) schedule(1,3,1,60)
+Optimization: 199
+Answer: 38
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,4,5,17) schedule(5,3,5,22) schedule(5,4,5,17) schedule(4,1,1,1) schedule(1,3,1,60)
+Optimization: 187
+Answer: 39
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,4,5,1) schedule(4,1,5,11) schedule(5,3,5,22) schedule(5,4,5,17) schedule(1,3,1,60)
+Optimization: 186
+Answer: 40
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,4,5,1) schedule(4,1,5,10) schedule(5,3,5,22) schedule(5,4,5,17) schedule(1,3,1,60)
+Optimization: 185
+Answer: 41
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,16) schedule(4,4,5,8) schedule(5,3,5,22) schedule(5,4,5,17) schedule(1,3,1,60)
+Optimization: 184
+Answer: 42
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,4,5,1) schedule(4,1,5,8) schedule(5,3,5,22) schedule(5,4,5,17) schedule(1,3,1,60)
+Optimization: 183
+Answer: 43
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,4,5,1) schedule(4,1,5,6) schedule(5,3,5,22) schedule(5,4,5,17) schedule(1,3,1,60)
+Optimization: 181
+Answer: 44
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,4,5,1) schedule(4,1,5,6) schedule(5,3,5,11) schedule(5,4,5,7) schedule(1,3,1,60)
+Optimization: 180
+Answer: 45
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,3,5,11) schedule(5,4,5,7) schedule(1,3,1,60)
+Optimization: 179
+Answer: 46
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,3,2,40) schedule(5,4,2,7) schedule(1,3,1,60)
+Optimization: 178
+Answer: 47
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,33) schedule(1,3,1,60)
+Optimization: 167
+Answer: 48
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,32) schedule(1,3,1,60)
+Optimization: 166
+Answer: 49
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,30) schedule(1,3,1,60)
+Optimization: 164
+Answer: 50
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,26) schedule(1,3,1,60)
+Optimization: 160
+Answer: 51
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,22) schedule(1,3,1,60)
+Optimization: 156
+Answer: 52
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,15) schedule(1,3,1,60)
+Optimization: 149
+Answer: 53
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,11) schedule(1,3,1,60)
+Optimization: 145
+Answer: 54
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,10) schedule(1,3,1,60)
+Optimization: 144
+Answer: 55
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,6) schedule(1,3,1,60)
+Optimization: 140
+Answer: 56
+schedule(2,1,1,31) schedule(2,3,1,32) schedule(2,4,4,1) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,5) schedule(1,3,1,60)
+Optimization: 139
+Answer: 57
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,9) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,34) schedule(1,3,1,60)
+Optimization: 138
+Answer: 58
+schedule(2,4,1,1) schedule(2,1,1,8) schedule(2,3,1,5) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,34) schedule(1,3,1,60)
+Optimization: 137
+Answer: 59
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,6) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,34) schedule(1,3,1,60)
+Optimization: 135
+Answer: 60
+schedule(2,4,1,1) schedule(2,1,1,11) schedule(2,3,1,21) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,12) schedule(1,3,1,60)
+Optimization: 134
+Answer: 61
+schedule(2,4,1,1) schedule(2,1,2,18) schedule(2,3,2,25) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,12) schedule(1,3,1,60)
+Optimization: 132
+Answer: 62
+schedule(2,4,1,1) schedule(2,1,2,32) schedule(2,3,2,25) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,12) schedule(1,3,1,60)
+Optimization: 130
+Answer: 63
+schedule(2,4,1,1) schedule(2,1,2,30) schedule(2,3,2,25) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,12) schedule(1,3,1,60)
+Optimization: 128
+Answer: 64
+schedule(2,4,1,1) schedule(2,1,2,24) schedule(2,3,2,25) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,12) schedule(1,3,1,60)
+Optimization: 126
+Answer: 65
+schedule(2,4,1,1) schedule(2,1,1,8) schedule(2,3,1,15) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,12) schedule(1,3,1,60)
+Optimization: 125
+Answer: 66
+schedule(2,4,1,1) schedule(2,1,1,7) schedule(2,3,1,13) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,12) schedule(1,3,1,60)
+Optimization: 122
+Answer: 67
+schedule(2,4,1,1) schedule(2,1,1,13) schedule(2,3,1,6) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,12) schedule(1,3,1,60)
+Optimization: 121
+Answer: 68
+schedule(2,4,1,1) schedule(2,1,1,7) schedule(2,3,1,8) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,12) schedule(1,3,1,60)
+Optimization: 117
+Answer: 69
+schedule(2,4,1,1) schedule(2,1,1,6) schedule(2,3,1,7) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,12) schedule(1,3,1,60)
+Optimization: 115
+Answer: 70
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,6) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,12) schedule(1,3,1,60)
+Optimization: 113
+Answer: 71
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,9) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,8) schedule(1,3,1,60)
+Optimization: 112
+Answer: 72
+schedule(2,4,1,1) schedule(2,1,1,6) schedule(2,3,1,7) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,8) schedule(1,3,1,60)
+Optimization: 111
+Answer: 73
+schedule(2,4,1,1) schedule(2,1,1,9) schedule(2,3,1,6) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,5) schedule(1,3,1,60)
+Optimization: 110
+Answer: 74
+schedule(2,4,1,1) schedule(2,1,1,8) schedule(2,3,1,5) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,6) schedule(1,3,1,60)
+Optimization: 109
+Answer: 75
+schedule(2,4,1,1) schedule(2,1,1,8) schedule(2,3,1,5) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,5) schedule(1,3,1,60)
+Optimization: 108
+Answer: 76
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,6) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,6) schedule(1,3,1,60)
+Optimization: 107
+Answer: 77
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,6) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,5,6) schedule(4,4,5,2) schedule(5,4,1,1) schedule(5,3,1,5) schedule(1,3,1,60)
+Optimization: 106
+Answer: 78
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,8) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,4,20) schedule(4,4,4,11) schedule(5,4,1,1) schedule(5,3,1,5) schedule(1,3,1,60)
+Optimization: 105
+Answer: 79
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,8) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,4,4,1) schedule(4,1,4,9) schedule(5,4,1,1) schedule(5,3,1,5) schedule(1,3,1,60)
+Optimization: 104
+Answer: 80
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,8) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,4,4,1) schedule(4,1,4,8) schedule(5,4,1,1) schedule(5,3,1,5) schedule(1,3,1,60)
+Optimization: 103
+Answer: 81
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,8) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,4,19) schedule(4,4,4,14) schedule(5,4,1,1) schedule(5,3,1,5) schedule(1,3,1,60)
+Optimization: 101
+Answer: 82
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,8) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,4,18) schedule(4,4,4,14) schedule(5,4,1,1) schedule(5,3,1,5) schedule(1,3,1,60)
+Optimization: 100
+Answer: 83
+schedule(2,4,1,1) schedule(2,1,1,8) schedule(2,3,1,5) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,4,19) schedule(4,4,4,14) schedule(5,4,1,1) schedule(5,3,1,5) schedule(1,3,1,60)
+Optimization: 99
+Answer: 84
+schedule(2,4,1,1) schedule(2,1,1,8) schedule(2,3,1,5) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,4,18) schedule(4,4,4,14) schedule(5,4,1,1) schedule(5,3,1,5) schedule(1,3,1,60)
+Optimization: 98
+Answer: 85
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,6) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,4,18) schedule(4,4,4,14) schedule(5,4,1,1) schedule(5,3,1,5) schedule(1,3,1,60)
+Optimization: 96
+Answer: 86
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,8) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,3,12) schedule(4,4,3,6) schedule(5,4,1,1) schedule(5,3,1,5) schedule(1,3,1,60)
+Optimization: 92
+Answer: 87
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,8) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,3,11) schedule(4,4,3,6) schedule(5,4,1,1) schedule(5,3,1,5) schedule(1,3,1,60)
+Optimization: 91
+Answer: 88
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,8) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,3,10) schedule(4,4,3,6) schedule(5,4,1,1) schedule(5,3,1,5) schedule(1,3,1,60)
+Optimization: 90
+Answer: 89
+schedule(2,1,1,11) schedule(2,3,1,8) schedule(2,4,1,4) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,3,11) schedule(4,4,3,6) schedule(5,4,1,1) schedule(5,3,1,5) schedule(1,3,1,60)
+Optimization: 89
+Answer: 90
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,8) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,2,9) schedule(4,4,2,5) schedule(5,4,1,1) schedule(5,3,1,5) schedule(1,3,1,60)
+Optimization: 80
+Answer: 91
+schedule(2,1,1,10) schedule(2,3,1,7) schedule(2,4,1,3) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,2,9) schedule(4,4,2,5) schedule(5,4,1,1) schedule(5,3,1,5) schedule(1,3,1,60)
+Optimization: 78
+Answer: 92
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,6) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,2,18) schedule(4,4,2,13) schedule(5,4,1,1) schedule(5,3,1,5) schedule(1,3,1,60)
+Optimization: 77
+Answer: 93
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,6) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,2,7) schedule(4,4,2,3) schedule(5,4,1,1) schedule(5,3,1,5) schedule(1,3,1,60)
+Optimization: 76
+Answer: 94
+schedule(2,1,1,10) schedule(2,3,1,7) schedule(2,4,1,3) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,1,8) schedule(4,4,1,3) schedule(5,4,1,1) schedule(5,3,1,11) schedule(1,3,1,60)
+Optimization: 75
+Answer: 95
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,8) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,1,24) schedule(4,4,1,17) schedule(5,3,1,7) schedule(5,4,1,2) schedule(1,3,1,60)
+Optimization: 74
+Answer: 96
+schedule(2,1,1,10) schedule(2,3,1,7) schedule(2,4,1,3) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,1,24) schedule(4,4,1,17) schedule(5,3,1,7) schedule(5,4,1,2) schedule(1,3,1,60)
+Optimization: 72
+Answer: 97
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,6) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,1,24) schedule(4,4,1,17) schedule(5,3,1,7) schedule(5,4,1,2) schedule(1,3,1,60)
+Optimization: 70
+Answer: 98
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,9) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,1,21) schedule(4,4,1,17) schedule(5,3,1,6) schedule(5,4,1,2) schedule(1,3,1,60)
+Optimization: 69
+Answer: 99
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,6) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,1,22) schedule(4,4,1,17) schedule(5,3,1,7) schedule(5,4,1,2) schedule(1,3,1,60)
+Optimization: 68
+Answer: 100
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,6) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,1,21) schedule(4,4,1,17) schedule(5,3,1,7) schedule(5,4,1,2) schedule(1,3,1,60)
+Optimization: 67
+Answer: 101
+schedule(2,4,1,1) schedule(2,1,1,5) schedule(2,3,1,6) schedule(3,4,1,1) schedule(3,3,1,5) schedule(4,1,1,21) schedule(4,4,1,17) schedule(5,3,1,11) schedule(5,4,1,7) schedule(1,3,1,60)
+Optimization: 66
+OPTIMUM FOUND
+
+Models       : 101
+  Optimum    : yes
+Optimization : 66
+Calls        : 1
+Time         : 5.112s (Solving: 3.10s 1st Model: 0.01s Unsat: 0.75s)
+CPU Time     : 4.732s
+
+
+ASP - average instance 1: 4.85 seconds
+clingo version 5.7.1
+Reading from hospital_constraints.lp ...
+Solving...
+Answer: 1
+schedule(4,2,4,60) schedule(4,1,4,34) schedule(3,3,2,60) schedule(3,4,3,1) schedule(3,2,3,60) schedule(4,4,5,1) schedule(1,3,3,54) schedule(2,1,4,23)
+Optimization: 293
+Answer: 2
+schedule(4,2,4,60) schedule(4,1,4,34) schedule(3,3,2,60) schedule(3,4,3,1) schedule(3,2,3,60) schedule(4,4,5,1) schedule(1,3,1,1) schedule(2,1,4,36)
+Optimization: 273
+Answer: 3
+schedule(4,2,4,60) schedule(4,1,4,34) schedule(3,3,2,60) schedule(3,4,3,1) schedule(3,2,3,60) schedule(4,4,5,1) schedule(1,3,3,1) schedule(2,1,1,56)
+Optimization: 263
+Answer: 4
+schedule(4,2,4,60) schedule(4,1,4,34) schedule(3,3,2,60) schedule(3,4,3,1) schedule(3,2,3,60) schedule(4,4,5,1) schedule(1,3,1,40) schedule(2,1,1,44)
+Optimization: 243
+Answer: 5
+schedule(4,2,1,60) schedule(4,1,4,34) schedule(3,3,2,60) schedule(3,4,3,1) schedule(3,2,3,60) schedule(4,4,5,1) schedule(1,3,1,55) schedule(2,1,1,7)
+Optimization: 228
+Answer: 6
+schedule(4,2,1,60) schedule(4,1,1,52) schedule(3,3,2,60) schedule(3,4,3,1) schedule(3,2,3,60) schedule(4,4,5,1) schedule(1,3,3,60) schedule(2,1,2,2)
+Optimization: 225
+Answer: 7
+schedule(4,2,1,60) schedule(4,1,1,52) schedule(3,3,2,60) schedule(3,4,3,1) schedule(3,2,3,60) schedule(4,4,5,1) schedule(1,3,3,60) schedule(2,1,1,60)
+Optimization: 215
+Answer: 8
+schedule(4,2,1,34) schedule(4,1,1,52) schedule(3,3,2,60) schedule(3,4,3,1) schedule(3,2,3,60) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,2,60)
+Optimization: 214
+Answer: 9
+schedule(4,2,1,34) schedule(4,1,1,37) schedule(3,3,2,60) schedule(3,4,3,1) schedule(3,2,3,60) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,2,60)
+Optimization: 199
+Answer: 10
+schedule(4,2,1,46) schedule(4,1,1,48) schedule(3,3,2,60) schedule(3,4,3,1) schedule(3,2,3,60) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,2,60)
+Optimization: 198
+Answer: 11
+schedule(4,2,1,34) schedule(4,1,1,31) schedule(3,3,2,60) schedule(3,4,3,1) schedule(3,2,3,60) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,1,46)
+Optimization: 190
+Answer: 12
+schedule(4,2,1,34) schedule(4,1,1,37) schedule(3,3,2,60) schedule(3,4,3,1) schedule(3,2,3,60) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,1,46)
+Optimization: 189
+Answer: 13
+schedule(4,2,1,34) schedule(4,1,1,33) schedule(3,3,2,60) schedule(3,4,3,1) schedule(3,2,3,60) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,1,46)
+Optimization: 188
+Answer: 14
+schedule(4,2,1,34) schedule(4,1,1,41) schedule(3,3,1,60) schedule(3,4,3,1) schedule(3,2,3,60) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,1,46)
+Optimization: 183
+Answer: 15
+schedule(4,2,1,34) schedule(4,1,1,36) schedule(3,3,1,60) schedule(3,4,3,1) schedule(3,2,3,60) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,1,46)
+Optimization: 178
+Answer: 16
+schedule(4,2,1,34) schedule(4,1,1,42) schedule(3,2,2,60) schedule(3,4,3,1) schedule(3,3,4,60) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,1,46)
+Optimization: 176
+Answer: 17
+schedule(4,2,1,34) schedule(4,1,1,33) schedule(3,2,2,60) schedule(3,4,3,1) schedule(3,3,4,60) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,1,46)
+Optimization: 170
+Answer: 18
+schedule(4,2,1,34) schedule(4,1,1,26) schedule(3,3,1,60) schedule(3,2,2,60) schedule(3,4,3,1) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,1,46)
+Optimization: 147
+Answer: 19
+schedule(4,2,1,34) schedule(4,1,1,29) schedule(3,3,1,60) schedule(3,2,2,60) schedule(3,4,3,1) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,1,46)
+Optimization: 144
+Answer: 20
+schedule(4,2,1,34) schedule(4,1,1,37) schedule(3,3,1,60) schedule(3,2,2,60) schedule(3,4,3,1) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,1,46)
+Optimization: 141
+Answer: 21
+schedule(4,2,1,34) schedule(4,1,1,33) schedule(3,3,1,60) schedule(3,2,2,60) schedule(3,4,3,1) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,1,46)
+Optimization: 140
+Answer: 22
+schedule(4,2,1,28) schedule(4,1,1,20) schedule(3,2,2,56) schedule(3,3,2,60) schedule(3,4,3,1) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,1,46)
+Optimization: 139
+Answer: 23
+schedule(4,2,1,23) schedule(4,1,1,20) schedule(3,2,2,56) schedule(3,3,2,60) schedule(3,4,3,1) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,1,46)
+Optimization: 134
+Answer: 24
+schedule(4,2,1,21) schedule(4,1,1,20) schedule(3,2,2,56) schedule(3,3,2,60) schedule(3,4,3,1) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,1,46)
+Optimization: 132
+Answer: 25
+schedule(4,2,1,21) schedule(4,1,1,20) schedule(3,2,2,56) schedule(3,3,2,59) schedule(3,4,3,1) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,1,46)
+Optimization: 131
+Answer: 26
+schedule(4,2,1,21) schedule(4,1,1,20) schedule(3,2,2,58) schedule(3,3,2,60) schedule(3,4,3,1) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,1,46)
+Optimization: 130
+Answer: 27
+schedule(4,2,1,21) schedule(4,1,1,20) schedule(3,2,1,53) schedule(3,3,1,60) schedule(3,4,3,1) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,1,46)
+Optimization: 125
+Answer: 28
+schedule(4,2,1,22) schedule(4,1,1,20) schedule(3,2,1,55) schedule(3,3,1,60) schedule(3,4,3,1) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,1,46)
+Optimization: 124
+Answer: 29
+schedule(4,2,1,21) schedule(4,1,1,20) schedule(3,2,1,55) schedule(3,3,1,60) schedule(3,4,3,1) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,1,46)
+Optimization: 123
+Answer: 30
+schedule(4,2,1,22) schedule(4,1,1,20) schedule(3,2,1,58) schedule(3,3,1,60) schedule(3,4,3,1) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,1,46)
+Optimization: 121
+Answer: 31
+schedule(4,2,1,21) schedule(4,1,1,20) schedule(3,2,1,58) schedule(3,3,1,60) schedule(3,4,3,1) schedule(4,4,5,1) schedule(1,3,1,60) schedule(2,1,1,46)
+Optimization: 120
+Answer: 32
+schedule(4,4,1,16) schedule(4,2,1,21) schedule(4,1,1,20) schedule(3,4,3,1) schedule(3,2,5,60) schedule(3,3,5,55) schedule(1,3,1,60) schedule(2,1,1,4)
+Optimization: 119
+Answer: 33
+schedule(4,4,1,14) schedule(4,2,1,18) schedule(4,1,1,20) schedule(3,4,3,1) schedule(3,2,5,60) schedule(3,3,5,57) schedule(1,3,1,60) schedule(2,1,1,41)
+Optimization: 118
+Answer: 34
+schedule(4,4,1,3) schedule(4,2,1,8) schedule(4,1,1,7) schedule(3,4,3,1) schedule(3,2,5,60) schedule(3,3,5,57) schedule(1,3,1,60) schedule(2,1,1,16)
+Optimization: 117
+Answer: 35
+schedule(4,4,1,5) schedule(4,2,3,26) schedule(4,1,3,8) schedule(3,2,3,12) schedule(3,3,3,14) schedule(3,4,3,8) schedule(1,3,1,60) schedule(2,1,1,26)
+Optimization: 115
+Answer: 36
+schedule(4,4,1,5) schedule(4,2,3,23) schedule(4,1,3,8) schedule(3,4,1,10) schedule(3,2,3,12) schedule(3,3,3,14) schedule(1,3,1,60) schedule(2,1,1,2)
+Optimization: 114
+Answer: 37
+schedule(4,4,1,5) schedule(4,2,3,21) schedule(4,1,3,8) schedule(3,4,1,10) schedule(3,2,3,12) schedule(3,3,3,14) schedule(1,3,1,60) schedule(2,1,1,10)
+Optimization: 112
+Answer: 38
+schedule(4,4,1,5) schedule(4,2,3,18) schedule(4,1,3,8) schedule(3,4,1,10) schedule(3,2,3,12) schedule(3,3,3,14) schedule(1,3,1,60) schedule(2,1,1,23)
+Optimization: 109
+Answer: 39
+schedule(4,4,1,5) schedule(4,2,3,17) schedule(4,1,3,8) schedule(3,4,1,10) schedule(3,2,3,12) schedule(3,3,3,14) schedule(1,3,1,60) schedule(2,1,1,39)
+Optimization: 108
+Answer: 40
+schedule(4,4,1,5) schedule(4,2,3,12) schedule(4,1,3,8) schedule(3,4,1,10) schedule(3,2,3,12) schedule(3,3,3,14) schedule(1,3,1,60) schedule(2,1,1,42)
+Optimization: 103
+Answer: 41
+schedule(4,4,1,5) schedule(4,2,3,9) schedule(4,1,3,8) schedule(3,4,1,10) schedule(3,2,3,12) schedule(3,3,3,14) schedule(1,3,1,60) schedule(2,1,1,15)
+Optimization: 100
+Answer: 42
+schedule(4,4,1,5) schedule(4,2,3,9) schedule(4,1,3,8) schedule(3,2,3,12) schedule(3,3,3,14) schedule(3,4,3,8) schedule(1,3,1,60) schedule(2,1,1,15)
+Optimization: 98
+Answer: 43
+schedule(4,4,1,5) schedule(4,2,2,56) schedule(4,1,2,59) schedule(3,4,1,10) schedule(3,2,3,12) schedule(3,3,3,14) schedule(1,3,1,60) schedule(2,1,1,15)
+Optimization: 91
+Answer: 44
+schedule(4,4,1,5) schedule(4,2,2,57) schedule(4,1,2,59) schedule(3,4,1,10) schedule(3,2,3,12) schedule(3,3,3,14) schedule(1,3,1,60) schedule(2,1,1,31)
+Optimization: 90
+Answer: 45
+schedule(4,4,1,5) schedule(4,2,1,10) schedule(4,1,1,13) schedule(3,4,1,10) schedule(3,2,3,12) schedule(3,3,3,14) schedule(1,3,1,60) schedule(2,1,1,9)
+Optimization: 82
+Answer: 46
+schedule(4,4,1,5) schedule(4,2,1,10) schedule(4,1,1,12) schedule(3,4,1,10) schedule(3,2,3,12) schedule(3,3,3,14) schedule(1,3,1,60) schedule(2,1,1,53)
+Optimization: 80
+Answer: 47
+schedule(4,4,1,5) schedule(4,2,1,10) schedule(4,1,1,9) schedule(3,4,1,10) schedule(3,2,3,12) schedule(3,3,3,14) schedule(1,3,1,60) schedule(2,1,1,42)
+Optimization: 77
+Answer: 48
+schedule(4,4,1,5) schedule(4,2,1,10) schedule(4,1,1,13) schedule(3,4,1,10) schedule(3,2,2,26) schedule(3,3,2,19) schedule(1,3,1,60) schedule(2,1,1,29)
+Optimization: 76
+Answer: 49
+schedule(4,4,1,5) schedule(4,2,1,9) schedule(4,1,1,13) schedule(3,4,1,10) schedule(3,2,2,26) schedule(3,3,2,31) schedule(1,3,1,60) schedule(2,1,1,19)
+Optimization: 75
+Answer: 50
+schedule(4,4,1,5) schedule(4,2,1,9) schedule(4,1,1,13) schedule(3,4,1,10) schedule(3,2,2,26) schedule(3,3,2,30) schedule(1,3,1,60) schedule(2,1,1,49)
+Optimization: 74
+Answer: 51
+schedule(4,4,1,5) schedule(4,2,1,9) schedule(4,1,1,13) schedule(3,4,1,10) schedule(3,2,2,26) schedule(3,3,2,29) schedule(1,3,1,60) schedule(2,1,1,14)
+Optimization: 73
+Answer: 52
+schedule(4,4,1,5) schedule(4,2,1,9) schedule(4,1,1,13) schedule(3,4,1,10) schedule(3,2,2,26) schedule(3,3,2,28) schedule(1,3,1,60) schedule(2,1,1,26)
+Optimization: 72
+Answer: 53
+schedule(4,4,1,5) schedule(4,2,1,10) schedule(4,1,1,9) schedule(3,4,1,10) schedule(3,2,2,40) schedule(3,3,2,46) schedule(1,3,1,60) schedule(2,1,1,40)
+Optimization: 71
+Answer: 54
+schedule(4,4,1,5) schedule(4,2,1,11) schedule(4,1,1,10) schedule(3,4,1,10) schedule(3,2,2,40) schedule(3,3,2,43) schedule(1,3,1,60) schedule(2,1,1,3)
+Optimization: 70
+Answer: 55
+schedule(4,4,1,5) schedule(4,2,1,11) schedule(4,1,1,10) schedule(3,4,1,10) schedule(3,2,2,40) schedule(3,3,2,37) schedule(1,3,1,60) schedule(2,1,1,26)
+Optimization: 69
+Answer: 56
+schedule(4,4,1,5) schedule(4,2,1,10) schedule(4,1,1,9) schedule(3,4,1,10) schedule(3,2,2,25) schedule(3,3,2,28) schedule(1,3,1,60) schedule(2,1,1,45)
+Optimization: 68
+Answer: 57
+schedule(4,4,1,5) schedule(4,2,1,10) schedule(4,1,1,9) schedule(3,4,1,10) schedule(3,2,2,35) schedule(3,3,2,37) schedule(1,3,1,60) schedule(2,1,1,60)
+Optimization: 67
+Answer: 58
+schedule(4,4,1,2) schedule(4,2,1,8) schedule(4,1,1,15) schedule(3,2,1,23) schedule(3,3,1,20) schedule(3,4,1,16) schedule(1,3,1,60) schedule(2,1,1,11)
+Optimization: 66
+Answer: 59
+schedule(4,4,1,2) schedule(4,2,1,8) schedule(4,1,1,15) schedule(3,2,1,17) schedule(3,3,1,19) schedule(3,4,1,13) schedule(1,3,1,60) schedule(2,1,1,28)
+Optimization: 65
+Answer: 60
+schedule(4,4,1,4) schedule(4,2,1,10) schedule(4,1,1,9) schedule(3,2,1,22) schedule(3,3,1,17) schedule(3,4,1,13) schedule(1,3,1,60) schedule(2,1,1,51)
+Optimization: 62
+Answer: 61
+schedule(4,4,1,4) schedule(4,2,1,8) schedule(4,1,1,10) schedule(3,2,1,22) schedule(3,3,1,17) schedule(3,4,1,13) schedule(1,3,1,60) schedule(2,1,1,28)
+Optimization: 61
+Answer: 62
+schedule(4,4,1,4) schedule(4,2,1,10) schedule(4,1,1,9) schedule(3,2,1,21) schedule(3,3,1,17) schedule(3,4,1,13) schedule(1,3,1,60) schedule(2,1,1,31)
+Optimization: 60
+Answer: 63
+schedule(4,4,1,4) schedule(4,2,1,8) schedule(4,1,1,10) schedule(3,2,1,21) schedule(3,3,1,17) schedule(3,4,1,13) schedule(1,3,1,60) schedule(2,1,1,27)
+Optimization: 59
+Answer: 64
+schedule(4,4,1,4) schedule(4,2,1,10) schedule(4,1,1,9) schedule(3,2,1,20) schedule(3,3,1,17) schedule(3,4,1,13) schedule(1,3,1,60) schedule(2,1,1,56)
+Optimization: 58
+Answer: 65
+schedule(4,4,1,4) schedule(4,2,1,10) schedule(4,1,1,9) schedule(3,2,1,17) schedule(3,3,1,19) schedule(3,4,1,13) schedule(1,3,1,60) schedule(2,1,1,36)
+Optimization: 57
+Answer: 66
+schedule(4,4,1,11) schedule(4,2,1,16) schedule(4,1,1,15) schedule(3,2,1,17) schedule(3,3,1,19) schedule(3,4,1,13) schedule(1,3,1,60) schedule(2,1,1,55)
+Optimization: 55
+OPTIMUM FOUND
+
+Models       : 66
+  Optimum    : yes
+Optimization : 55
+Calls        : 1
+Time         : 4.756s (Solving: 3.19s 1st Model: 0.02s Unsat: 1.88s)
+CPU Time     : 4.647s
+
+
+ASP - average instance 2: 2.32 seconds
+clingo version 5.7.1
+Reading from hospital_constraints.lp ...
+Solving...
+Answer: 1
+schedule(3,1,3,2) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(2,4,5,1) schedule(3,4,5,1) schedule(1,2,5,1) schedule(2,2,2,1) schedule(4,2,5,7)
+Optimization: 330
+Answer: 2
+schedule(3,1,3,2) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(2,2,2,2) schedule(2,4,5,1) schedule(3,4,5,1) schedule(1,2,5,1) schedule(4,2,3,11)
+Optimization: 310
+Answer: 3
+schedule(3,1,3,2) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(2,2,2,3) schedule(2,4,5,1) schedule(3,4,5,1) schedule(1,2,5,1) schedule(4,2,1,3)
+Optimization: 290
+Answer: 4
+schedule(3,1,3,2) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(2,2,1,3) schedule(2,4,5,1) schedule(3,4,5,1) schedule(1,2,5,1) schedule(4,2,1,3)
+Optimization: 280
+Answer: 5
+schedule(3,1,3,2) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,2,3) schedule(2,2,2,2) schedule(2,4,5,1) schedule(3,4,5,1) schedule(4,2,2,60)
+Optimization: 270
+Answer: 6
+schedule(3,1,3,2) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(2,2,2,2) schedule(2,4,5,1) schedule(3,4,5,1) schedule(1,2,2,1) schedule(4,2,1,10)
+Optimization: 260
+Answer: 7
+schedule(3,1,3,4) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,2,4) schedule(2,2,1,2) schedule(2,4,5,1) schedule(3,4,5,1) schedule(4,2,1,1)
+Optimization: 250
+Answer: 8
+schedule(3,1,1,4) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,3,2) schedule(2,2,1,4) schedule(2,4,5,1) schedule(3,4,5,1) schedule(4,2,1,21)
+Optimization: 240
+Answer: 9
+schedule(3,1,1,1) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(2,2,1,4) schedule(2,4,5,1) schedule(3,4,5,1) schedule(1,2,2,1) schedule(4,2,1,13)
+Optimization: 230
+Answer: 10
+schedule(3,1,5,5) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(2,2,1,4) schedule(2,4,5,1) schedule(3,4,5,1) schedule(1,2,2,1) schedule(4,2,1,22)
+Optimization: 223
+Answer: 11
+schedule(3,1,5,5) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,1,21) schedule(2,2,1,4) schedule(2,4,5,1) schedule(3,4,5,1) schedule(4,2,1,21)
+Optimization: 222
+Answer: 12
+schedule(3,1,1,1) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,2,1,4) schedule(2,4,5,1) schedule(3,4,5,1) schedule(4,2,1,17)
+Optimization: 213
+Answer: 13
+schedule(3,1,5,5) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,2,1,4) schedule(2,4,5,1) schedule(3,4,5,1) schedule(4,2,1,6)
+Optimization: 206
+Answer: 14
+schedule(3,1,5,8) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,4,5,1) schedule(2,2,5,5) schedule(3,4,5,1) schedule(4,2,1,5)
+Optimization: 202
+Answer: 15
+schedule(3,1,5,5) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,4,5,1) schedule(2,2,5,5) schedule(3,4,5,1) schedule(4,2,1,5)
+Optimization: 199
+Answer: 16
+schedule(3,1,2,5) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,2,4) schedule(2,4,5,1) schedule(3,4,2,1) schedule(2,2,1,1) schedule(4,2,1,55)
+Optimization: 193
+Answer: 17
+schedule(3,1,2,5) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,1,21) schedule(2,4,5,1) schedule(3,4,2,1) schedule(2,2,1,1) schedule(4,2,1,55)
+Optimization: 192
+Answer: 18
+schedule(3,1,2,5) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,1,18) schedule(2,4,5,1) schedule(3,4,2,1) schedule(2,2,1,1) schedule(4,2,1,55)
+Optimization: 189
+Answer: 19
+schedule(3,1,2,5) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,1,18) schedule(2,2,5,23) schedule(2,4,5,17) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 184
+Answer: 20
+schedule(3,1,2,5) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,1,18) schedule(2,4,5,1) schedule(2,2,5,5) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 182
+Answer: 21
+schedule(3,1,2,5) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,2,1,18) schedule(1,4,1,14) schedule(2,4,5,1) schedule(3,4,2,1) schedule(2,2,1,1) schedule(4,2,1,55)
+Optimization: 176
+Answer: 22
+schedule(3,1,2,5) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,2,1,18) schedule(1,4,1,14) schedule(2,4,5,1) schedule(2,2,5,10) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 174
+Answer: 23
+schedule(3,1,2,5) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,1,18) schedule(2,4,3,1) schedule(2,2,3,6) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 163
+Answer: 24
+schedule(3,1,2,5) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,1,18) schedule(2,4,3,1) schedule(2,2,3,5) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 162
+Answer: 25
+schedule(3,1,2,5) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,1,18) schedule(2,4,2,1) schedule(2,2,2,5) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 152
+Answer: 26
+schedule(3,1,2,5) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,1,18) schedule(2,2,1,25) schedule(2,4,1,12) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 151
+Answer: 27
+schedule(3,1,2,5) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,1,18) schedule(2,2,1,13) schedule(2,4,1,5) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 146
+Answer: 28
+schedule(3,1,2,5) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,1,18) schedule(2,2,1,6) schedule(2,4,1,2) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 142
+Answer: 29
+schedule(3,4,1,16) schedule(3,1,1,21) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,1,18) schedule(2,2,1,25) schedule(2,4,1,17) schedule(4,2,1,55)
+Optimization: 137
+Answer: 30
+schedule(3,4,1,17) schedule(3,1,1,21) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,1,18) schedule(2,2,1,25) schedule(2,4,1,17) schedule(4,2,1,55)
+Optimization: 136
+Answer: 31
+schedule(3,4,1,17) schedule(3,1,1,21) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,1,18) schedule(2,4,1,1) schedule(2,2,1,6) schedule(4,2,1,55)
+Optimization: 133
+Answer: 32
+schedule(3,4,1,17) schedule(3,1,1,21) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,1,18) schedule(2,2,1,21) schedule(2,4,1,17) schedule(4,2,1,55)
+Optimization: 132
+Answer: 33
+schedule(3,1,2,5) schedule(5,1,2,1) schedule(5,2,5,60) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,2,1,21) schedule(2,4,1,17) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 129
+Answer: 34
+schedule(3,1,2,5) schedule(5,2,1,60) schedule(5,1,2,1) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,4,3,1) schedule(3,4,2,1) schedule(2,2,1,1) schedule(4,2,1,55)
+Optimization: 116
+Answer: 35
+schedule(3,1,2,5) schedule(5,2,2,60) schedule(5,1,2,51) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,4,3,1) schedule(3,4,2,1) schedule(2,2,1,1) schedule(4,2,1,55)
+Optimization: 114
+Answer: 36
+schedule(3,1,2,5) schedule(5,1,2,1) schedule(5,2,2,6) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,4,3,1) schedule(3,4,2,1) schedule(2,2,1,1) schedule(4,2,1,55)
+Optimization: 110
+Answer: 37
+schedule(3,1,2,5) schedule(5,2,2,60) schedule(5,1,2,56) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,4,3,1) schedule(3,4,2,1) schedule(2,2,1,1) schedule(4,2,1,55)
+Optimization: 109
+Answer: 38
+schedule(3,1,2,5) schedule(5,2,2,60) schedule(5,1,2,58) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,4,3,1) schedule(3,4,2,1) schedule(2,2,1,1) schedule(4,2,1,55)
+Optimization: 107
+Answer: 39
+schedule(3,1,2,5) schedule(5,2,2,60) schedule(5,1,2,59) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,4,3,1) schedule(3,4,2,1) schedule(2,2,1,1) schedule(4,2,1,55)
+Optimization: 106
+Answer: 40
+schedule(3,1,2,5) schedule(5,2,2,60) schedule(5,1,2,55) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,4,2,15) schedule(3,4,2,1) schedule(2,2,1,1) schedule(4,2,1,55)
+Optimization: 100
+Answer: 41
+schedule(3,1,2,5) schedule(5,2,2,60) schedule(5,1,2,59) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,4,2,15) schedule(3,4,2,1) schedule(2,2,1,1) schedule(4,2,1,55)
+Optimization: 96
+Answer: 42
+schedule(3,1,2,5) schedule(5,2,2,60) schedule(5,1,2,56) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,2,1,25) schedule(2,4,1,12) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 91
+Answer: 43
+schedule(3,1,2,5) schedule(5,2,2,60) schedule(5,1,2,56) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,2,1,29) schedule(2,4,1,17) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 90
+Answer: 44
+schedule(3,1,2,5) schedule(5,2,2,60) schedule(5,1,2,56) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,2,1,27) schedule(2,4,1,17) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 88
+Answer: 45
+schedule(3,1,2,5) schedule(5,2,2,60) schedule(5,1,2,56) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,2,1,17) schedule(2,4,1,8) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 87
+Answer: 46
+schedule(3,1,2,5) schedule(5,2,2,60) schedule(5,1,2,56) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,2,1,21) schedule(2,4,1,17) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 82
+Answer: 47
+schedule(3,1,2,5) schedule(5,2,2,60) schedule(5,1,2,58) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,2,1,21) schedule(2,4,1,17) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 80
+Answer: 48
+schedule(3,1,2,5) schedule(5,2,2,60) schedule(5,1,2,59) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,2,1,21) schedule(2,4,1,17) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 79
+Answer: 49
+schedule(3,1,2,5) schedule(5,2,1,3) schedule(5,1,1,2) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,2,1,25) schedule(2,4,1,12) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 78
+Answer: 50
+schedule(3,1,2,5) schedule(5,2,1,8) schedule(5,1,1,16) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,2,1,14) schedule(2,4,1,8) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 77
+Answer: 51
+schedule(3,1,2,5) schedule(5,2,1,17) schedule(5,1,1,16) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,2,1,28) schedule(2,4,1,17) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 76
+Answer: 52
+schedule(3,1,2,5) schedule(5,2,1,17) schedule(5,1,1,16) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,2,1,27) schedule(2,4,1,17) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 75
+Answer: 53
+schedule(3,1,2,5) schedule(5,2,1,17) schedule(5,1,1,16) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,2,1,15) schedule(2,4,1,8) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 72
+Answer: 54
+schedule(3,1,2,5) schedule(5,2,1,17) schedule(5,1,1,16) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,2,1,14) schedule(2,4,1,8) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 71
+Answer: 55
+schedule(3,1,2,5) schedule(5,2,1,17) schedule(5,1,1,16) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,2,1,21) schedule(2,4,1,17) schedule(3,4,2,1) schedule(4,2,1,55)
+Optimization: 69
+Answer: 56
+schedule(3,4,1,3) schedule(3,1,1,8) schedule(5,2,1,8) schedule(5,1,1,10) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,2,1,28) schedule(2,4,1,17) schedule(4,2,1,55)
+Optimization: 67
+Answer: 57
+schedule(3,4,1,3) schedule(3,1,1,8) schedule(5,2,1,8) schedule(5,1,1,10) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,2,1,15) schedule(2,4,1,5) schedule(4,2,1,55)
+Optimization: 66
+Answer: 58
+schedule(3,4,1,3) schedule(3,1,1,8) schedule(5,2,1,8) schedule(5,1,1,10) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,2,1,15) schedule(2,4,1,8) schedule(4,2,1,55)
+Optimization: 63
+Answer: 59
+schedule(3,4,1,4) schedule(3,1,1,8) schedule(5,2,1,8) schedule(5,1,1,10) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,2,1,15) schedule(2,4,1,8) schedule(4,2,1,55)
+Optimization: 62
+Answer: 60
+schedule(3,4,1,3) schedule(3,1,1,8) schedule(5,2,1,8) schedule(5,1,1,10) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,2,1,21) schedule(2,4,1,17) schedule(4,2,1,55)
+Optimization: 60
+Answer: 61
+schedule(3,4,1,4) schedule(3,1,1,8) schedule(5,2,1,8) schedule(5,1,1,10) schedule(1,4,1,1) schedule(1,2,1,5) schedule(2,2,1,21) schedule(2,4,1,17) schedule(4,2,1,55)
+Optimization: 59
+OPTIMUM FOUND
+
+Models       : 61
+  Optimum    : yes
+Optimization : 59
+Calls        : 1
+Time         : 2.205s (Solving: 0.89s 1st Model: 0.01s Unsat: 0.08s)
+CPU Time     : 2.130s
+
+
+ASP - average instance 3: 0.10 seconds
+clingo version 5.7.1
+Reading from hospital_constraints.lp ...
+Solving...
+Answer: 1
+schedule(1,2,1,1) schedule(2,2,1,1) schedule(3,3,1,1) schedule(4,3,1,1)
+Optimization: 40
+OPTIMUM FOUND
+
+Models       : 1
+  Optimum    : yes
+Optimization : 40
+Calls        : 1
+Time         : 0.081s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.076s
+
+
+ASP - hard instance 0: 297.69 seconds
+clingo version 5.7.1
+Reading from hospital_constraints.lp ...
+Solving...
+Answer: 1
+schedule(5,4,1,1) schedule(5,2,2,4) schedule(8,4,2,1) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,3,4,2) schedule(10,4,5,1) schedule(7,3,4,60) schedule(8,2,5,1) schedule(7,2,5,60) schedule(1,1,5,1) schedule(1,2,5,60) schedule(3,1,5,1) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,1,3) schedule(4,1,5,1) schedule(6,1,2,1)
+Optimization: 722
+Answer: 2
+schedule(5,4,1,1) schedule(5,2,2,4) schedule(8,4,2,1) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,3,4,2) schedule(10,4,5,1) schedule(7,3,4,60) schedule(8,2,5,1) schedule(7,2,5,60) schedule(1,1,5,1) schedule(1,2,5,60) schedule(3,1,5,1) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,1,5) schedule(4,1,2,51) schedule(6,1,2,7)
+Optimization: 692
+Answer: 3
+schedule(5,4,1,1) schedule(5,2,2,3) schedule(8,4,2,1) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,3,4,2) schedule(10,4,5,1) schedule(7,3,4,60) schedule(8,2,5,1) schedule(7,2,5,60) schedule(1,1,5,1) schedule(1,2,5,60) schedule(3,1,5,1) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,2,1) schedule(4,1,1,32) schedule(6,1,1,1)
+Optimization: 682
+Answer: 4
+schedule(5,4,1,1) schedule(8,4,2,1) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,3,4,2) schedule(10,4,5,1) schedule(5,2,2,1) schedule(7,3,4,60) schedule(8,2,5,1) schedule(7,2,5,60) schedule(1,1,5,1) schedule(1,2,5,60) schedule(3,1,5,1) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,1,17) schedule(4,1,1,27) schedule(6,1,1,60)
+Optimization: 672
+Answer: 5
+schedule(5,4,1,1) schedule(5,2,2,4) schedule(8,4,2,1) schedule(8,2,4,2) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,3,4,2) schedule(10,4,5,1) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,1,5,1) schedule(1,2,5,60) schedule(3,1,5,1) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,1,16) schedule(4,1,1,38) schedule(6,1,1,58)
+Optimization: 662
+Answer: 6
+schedule(5,4,1,1) schedule(5,2,2,3) schedule(8,4,2,1) schedule(8,2,5,2) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,4,5,1) schedule(7,3,4,60) schedule(7,2,5,60) schedule(10,3,2,1) schedule(1,1,5,1) schedule(1,2,5,60) schedule(3,1,5,1) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,1,6) schedule(4,1,1,56) schedule(6,1,1,51)
+Optimization: 652
+Answer: 7
+schedule(5,4,1,1) schedule(5,2,3,2) schedule(8,4,2,1) schedule(8,2,4,2) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,4,5,1) schedule(10,3,5,5) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,1,5,1) schedule(1,2,5,60) schedule(3,1,5,1) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,2,2) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 645
+Answer: 8
+schedule(5,4,1,1) schedule(8,4,2,1) schedule(8,2,4,2) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,4,5,1) schedule(10,3,5,5) schedule(5,2,2,1) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,1,5,1) schedule(1,2,5,60) schedule(3,1,5,1) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,2,2) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 635
+Answer: 9
+schedule(5,4,1,1) schedule(5,2,1,21) schedule(8,4,2,1) schedule(8,2,4,2) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,4,5,1) schedule(10,3,5,5) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,1,5,1) schedule(1,2,5,60) schedule(3,1,5,1) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,2,2) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 634
+Answer: 10
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,2,1) schedule(8,2,4,2) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,4,5,1) schedule(10,3,5,5) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,1,5,1) schedule(1,2,5,60) schedule(3,1,5,1) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,2,2) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 618
+Answer: 11
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,2,1) schedule(8,2,4,2) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,4,5,1) schedule(10,3,5,5) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,1,5,1) schedule(1,2,5,60) schedule(3,1,5,1) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 608
+Answer: 12
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,2,3) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,4,5,1) schedule(10,3,5,5) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,1,5,1) schedule(1,2,5,60) schedule(3,1,5,1) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 578
+Answer: 13
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,2,1) schedule(8,2,2,5) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,4,5,1) schedule(10,3,5,5) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,1,5,1) schedule(1,2,5,60) schedule(3,1,5,1) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 571
+Answer: 14
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,2,5) schedule(8,4,5,1) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,4,5,1) schedule(10,3,5,5) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,1,5,1) schedule(1,2,5,60) schedule(3,1,1,1) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 570
+Answer: 15
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,2,5) schedule(8,4,5,1) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,4,5,1) schedule(10,3,5,5) schedule(3,1,5,58) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,1,5,1) schedule(1,2,5,60) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 561
+Answer: 16
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,2,5) schedule(8,4,5,1) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,4,5,1) schedule(10,3,5,5) schedule(3,1,5,59) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,1,5,1) schedule(1,2,5,60) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 560
+Answer: 17
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,2,5) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,4,5,1) schedule(10,3,5,5) schedule(3,1,5,59) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,1,5,1) schedule(1,2,5,60) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 520
+Answer: 18
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,2,1) schedule(8,2,2,5) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,4,5,1) schedule(10,3,5,5) schedule(3,1,5,59) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,1,5,1) schedule(1,2,5,60) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 513
+Answer: 19
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,2,5) schedule(8,4,5,1) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,4,5,1) schedule(10,3,5,5) schedule(3,1,5,59) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,2,1,60) schedule(1,1,5,1) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 512
+Answer: 20
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,2,5) schedule(8,4,5,1) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,58) schedule(3,1,5,59) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 503
+Answer: 21
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,2,5) schedule(8,4,5,1) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,1,5,59) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 502
+Answer: 22
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,2,5) schedule(8,4,3,1) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,1,5,59) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 482
+Answer: 23
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,2,5) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,1,5,59) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 462
+Answer: 24
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,2,1) schedule(8,2,2,5) schedule(9,3,1,60) schedule(9,4,2,1) schedule(9,2,2,60) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,1,5,59) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 455
+Answer: 25
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,2,5) schedule(8,4,5,1) schedule(9,2,1,60) schedule(9,3,1,56) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,1,5,59) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 445
+Answer: 26
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,2,5) schedule(8,4,5,1) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,1,5,59) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 444
+Answer: 27
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,2,5) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,1,5,59) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 404
+Answer: 28
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,2,21) schedule(8,4,2,17) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,1,5,59) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,5,60) schedule(7,1,5,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 397
+Answer: 29
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,2,5) schedule(8,4,5,1) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,1,5,59) schedule(7,3,4,60) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,5,60) schedule(7,1,1,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 396
+Answer: 30
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,2,5) schedule(8,4,5,1) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,1,5,59) schedule(7,3,4,60) schedule(7,1,4,54) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,5,60) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 391
+Answer: 31
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,2,5) schedule(8,4,5,1) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,1,5,59) schedule(7,3,4,60) schedule(7,1,5,55) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,5,60) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 390
+Answer: 32
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,2,5) schedule(8,4,5,1) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,1,5,59) schedule(7,3,4,60) schedule(7,1,5,59) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,5,60) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 386
+Answer: 33
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,2,5) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,1,5,59) schedule(7,3,4,60) schedule(7,1,5,59) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,5,60) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 346
+Answer: 34
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,2,24) schedule(8,4,2,17) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,1,5,59) schedule(7,3,4,60) schedule(7,1,5,59) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,5,60) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 342
+Answer: 35
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,2,22) schedule(8,4,2,17) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,1,5,59) schedule(7,3,4,60) schedule(7,1,5,59) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,5,60) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 340
+Answer: 36
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,2,21) schedule(8,4,2,17) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,1,5,59) schedule(7,3,4,60) schedule(7,1,5,59) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,5,60) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 339
+Answer: 37
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,1,5) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,1,5,59) schedule(7,3,4,60) schedule(7,1,5,59) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,5,60) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 329
+Answer: 38
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,2,5) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(7,3,4,60) schedule(7,1,5,59) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,1,1,1) schedule(3,2,2,60) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 326
+Answer: 39
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,2,5) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,1,2,57) schedule(7,3,4,60) schedule(7,1,5,59) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,2,60) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 318
+Answer: 40
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,2,5) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,1,2,58) schedule(7,3,4,60) schedule(7,1,5,59) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,2,60) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 317
+Answer: 41
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,2,5) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,1,2,59) schedule(7,3,4,60) schedule(7,1,5,59) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,2,60) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 316
+Answer: 42
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,2,5) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,1,1,57) schedule(7,3,4,60) schedule(7,1,5,59) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,1,60) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 308
+Answer: 43
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,2,5) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,1,1,58) schedule(7,3,4,60) schedule(7,1,5,59) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,1,60) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 307
+Answer: 44
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,2,5) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,1,1,59) schedule(7,3,4,60) schedule(7,1,5,59) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,2,1,60) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 306
+Answer: 45
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,2,1) schedule(8,2,2,5) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,2,1,4) schedule(7,3,4,60) schedule(7,1,5,59) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,1,1,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 301
+Answer: 46
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,2,1) schedule(8,2,2,5) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,2,1,3) schedule(7,3,4,60) schedule(7,1,5,59) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,1,1,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 300
+Answer: 47
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,2,1) schedule(8,2,2,5) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,2,1,2) schedule(7,3,4,60) schedule(7,1,5,59) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,1,1,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 299
+Answer: 48
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,1,26) schedule(8,4,1,17) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,2,1,2) schedule(7,3,4,60) schedule(7,1,5,59) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,1,1,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 294
+Answer: 49
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,1,23) schedule(8,4,1,17) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,2,1,2) schedule(7,3,4,60) schedule(7,1,5,59) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,1,1,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 291
+Answer: 50
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,1,22) schedule(8,4,1,17) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,2,1,2) schedule(7,3,4,60) schedule(7,1,5,59) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,1,1,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 290
+Answer: 51
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,1,21) schedule(8,4,1,17) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,2,1,2) schedule(7,3,4,60) schedule(7,1,5,59) schedule(7,2,5,60) schedule(1,2,5,60) schedule(3,1,1,1) schedule(2,4,1,12) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 289
+Answer: 52
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,1,23) schedule(8,4,2,1) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,2,1,2) schedule(7,3,4,60) schedule(7,1,4,57) schedule(7,2,4,58) schedule(1,2,5,60) schedule(3,1,1,1) schedule(2,4,4,2) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 288
+Answer: 53
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,1,23) schedule(8,4,2,1) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,2,1,2) schedule(7,3,4,60) schedule(7,1,4,59) schedule(7,2,4,57) schedule(1,2,5,60) schedule(3,1,1,1) schedule(2,4,4,2) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 287
+Answer: 54
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,1,23) schedule(8,4,2,1) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,2,1,2) schedule(7,3,4,60) schedule(7,1,4,59) schedule(7,2,4,57) schedule(1,2,5,60) schedule(3,1,1,1) schedule(2,4,3,16) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 277
+Answer: 55
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,2,1) schedule(8,2,2,5) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,2,1,2) schedule(7,3,4,60) schedule(7,1,4,59) schedule(7,2,4,57) schedule(1,2,5,60) schedule(3,1,1,1) schedule(2,4,3,16) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 270
+Answer: 56
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,2,1) schedule(8,2,2,5) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,2,1,2) schedule(7,3,4,60) schedule(7,1,4,59) schedule(7,2,4,57) schedule(1,2,5,60) schedule(3,1,1,1) schedule(2,4,2,1) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 260
+Answer: 57
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,2,1) schedule(8,2,2,5) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,2,1,2) schedule(7,3,4,60) schedule(7,1,4,59) schedule(7,2,4,57) schedule(1,2,5,60) schedule(3,1,1,1) schedule(2,4,1,15) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 250
+Answer: 58
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,1,21) schedule(8,4,1,17) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,2,1,2) schedule(7,3,4,60) schedule(7,1,4,59) schedule(7,2,4,57) schedule(1,2,5,60) schedule(3,1,1,1) schedule(2,4,1,15) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 240
+Answer: 59
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,1,21) schedule(8,4,1,17) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,1,17) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,2,1,2) schedule(7,3,4,60) schedule(7,1,4,59) schedule(7,2,4,57) schedule(1,2,5,60) schedule(3,1,1,1) schedule(2,4,1,15) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 238
+Answer: 60
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,1,21) schedule(8,4,1,17) schedule(9,2,1,26) schedule(9,3,1,22) schedule(9,4,1,17) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,2,1,2) schedule(7,3,4,60) schedule(7,1,4,59) schedule(7,2,4,57) schedule(1,2,5,60) schedule(3,1,1,1) schedule(2,4,1,15) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 233
+Answer: 61
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,1,21) schedule(8,4,1,17) schedule(9,2,1,21) schedule(9,3,1,26) schedule(9,4,1,17) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,2,1,2) schedule(7,3,4,60) schedule(7,1,4,59) schedule(7,2,4,57) schedule(1,2,5,60) schedule(3,1,1,1) schedule(2,4,1,15) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 231
+Answer: 62
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,1,21) schedule(8,4,1,17) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,2,1,2) schedule(7,3,1,55) schedule(7,1,1,60) schedule(7,2,1,58) schedule(1,2,5,60) schedule(3,1,1,1) schedule(2,4,1,15) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 211
+Answer: 63
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,1,21) schedule(8,4,1,17) schedule(9,2,1,26) schedule(9,3,1,28) schedule(9,4,2,1) schedule(10,4,5,1) schedule(10,3,5,5) schedule(1,1,5,59) schedule(3,2,1,2) schedule(7,3,1,54) schedule(7,1,1,57) schedule(7,2,1,58) schedule(1,2,5,60) schedule(3,1,1,1) schedule(2,4,1,15) schedule(4,1,1,56) schedule(6,1,1,6)
+Optimization: 210
+Answer: 64
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,1,21) schedule(8,4,1,17) schedule(9,2,1,16) schedule(9,3,1,22) schedule(9,4,1,11) schedule(10,3,1,12) schedule(10,4,1,8) schedule(1,1,1,26) schedule(1,2,1,17) schedule(3,2,1,2) schedule(7,3,1,53) schedule(7,1,1,32) schedule(7,2,1,11) schedule(3,1,1,1) schedule(2,4,1,15) schedule(4,1,1,11) schedule(6,1,1,6)
+Optimization: 209
+Answer: 65
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,1,21) schedule(8,4,1,17) schedule(9,2,1,16) schedule(9,3,1,22) schedule(9,4,1,11) schedule(10,3,1,12) schedule(10,4,1,8) schedule(1,1,1,26) schedule(1,2,1,29) schedule(3,2,1,2) schedule(7,3,1,53) schedule(7,1,1,32) schedule(7,2,1,11) schedule(3,1,1,1) schedule(2,4,1,15) schedule(4,1,1,11) schedule(6,1,1,6)
+Optimization: 204
+Answer: 66
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,1,21) schedule(8,4,1,17) schedule(9,2,1,16) schedule(9,3,1,22) schedule(9,4,1,11) schedule(10,3,1,12) schedule(10,4,1,8) schedule(1,1,1,26) schedule(1,2,1,28) schedule(3,2,1,2) schedule(7,3,1,53) schedule(7,1,1,32) schedule(7,2,1,11) schedule(3,1,1,1) schedule(2,4,1,15) schedule(4,1,1,11) schedule(6,1,1,6)
+Optimization: 203
+Answer: 67
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,2,1,21) schedule(8,4,1,17) schedule(9,2,1,16) schedule(9,3,1,22) schedule(9,4,1,11) schedule(10,3,1,12) schedule(10,4,1,8) schedule(1,1,1,26) schedule(1,2,1,27) schedule(3,2,1,2) schedule(7,3,1,53) schedule(7,1,1,32) schedule(7,2,1,11) schedule(3,1,1,1) schedule(2,4,1,15) schedule(4,1,1,11) schedule(6,1,1,6)
+Optimization: 202
+Answer: 68
+schedule(5,2,1,8) schedule(5,4,1,3) schedule(8,2,1,6) schedule(8,4,1,2) schedule(9,2,1,10) schedule(9,3,1,13) schedule(9,4,1,5) schedule(10,3,1,12) schedule(10,4,1,8) schedule(1,1,1,49) schedule(1,2,1,50) schedule(3,2,1,2) schedule(7,3,1,53) schedule(7,1,1,32) schedule(7,2,1,11) schedule(3,1,1,1) schedule(2,4,1,15) schedule(4,1,1,11) schedule(6,1,1,6)
+Optimization: 201
+Answer: 69
+schedule(5,2,1,6) schedule(5,4,1,2) schedule(8,2,1,6) schedule(8,4,1,2) schedule(9,2,1,10) schedule(9,3,1,13) schedule(9,4,1,5) schedule(10,3,1,12) schedule(10,4,1,8) schedule(1,1,1,49) schedule(1,2,1,50) schedule(3,2,1,2) schedule(7,3,1,53) schedule(7,1,1,32) schedule(7,2,1,11) schedule(3,1,1,1) schedule(2,4,1,15) schedule(4,1,1,11) schedule(6,1,1,6)
+Optimization: 200
+Answer: 70
+schedule(5,2,1,6) schedule(5,4,1,2) schedule(8,2,1,6) schedule(8,4,1,2) schedule(9,2,1,13) schedule(9,3,1,10) schedule(9,4,1,5) schedule(10,3,1,12) schedule(10,4,1,8) schedule(1,1,1,49) schedule(1,2,1,50) schedule(3,2,1,2) schedule(7,3,1,53) schedule(7,1,1,32) schedule(7,2,1,11) schedule(3,1,1,1) schedule(2,4,1,15) schedule(4,1,1,11) schedule(6,1,1,6)
+Optimization: 199
+Answer: 71
+schedule(5,2,1,6) schedule(5,4,1,2) schedule(8,2,1,6) schedule(8,4,1,2) schedule(9,2,1,10) schedule(9,3,1,12) schedule(9,4,1,5) schedule(10,3,1,12) schedule(10,4,1,8) schedule(1,1,1,49) schedule(1,2,1,50) schedule(3,2,1,2) schedule(7,3,1,53) schedule(7,1,1,32) schedule(7,2,1,11) schedule(3,1,1,1) schedule(2,4,1,15) schedule(4,1,1,11) schedule(6,1,1,6)
+Optimization: 198
+Answer: 72
+schedule(5,2,1,6) schedule(5,4,1,2) schedule(8,2,1,6) schedule(8,4,1,2) schedule(9,2,1,14) schedule(9,3,1,10) schedule(9,4,1,5) schedule(10,3,1,12) schedule(10,4,1,8) schedule(1,1,1,49) schedule(1,2,1,50) schedule(3,2,1,2) schedule(7,1,1,44) schedule(7,2,1,23) schedule(7,3,1,1) schedule(3,1,1,1) schedule(2,4,1,15) schedule(4,1,1,11) schedule(6,1,1,6)
+Optimization: 181
+Answer: 73
+schedule(5,2,1,6) schedule(5,4,1,2) schedule(8,4,1,1) schedule(8,2,1,6) schedule(9,2,1,14) schedule(9,3,1,10) schedule(9,4,1,6) schedule(10,3,1,12) schedule(10,4,1,8) schedule(1,1,1,49) schedule(1,2,1,50) schedule(3,2,1,2) schedule(7,3,1,51) schedule(7,1,1,10) schedule(7,2,1,30) schedule(3,1,1,1) schedule(2,4,1,15) schedule(4,1,1,11) schedule(6,1,1,6)
+Optimization: 180
+Answer: 74
+schedule(5,2,1,6) schedule(5,4,1,2) schedule(8,4,1,1) schedule(8,2,1,5) schedule(9,2,1,14) schedule(9,3,1,10) schedule(9,4,1,6) schedule(10,3,1,12) schedule(10,4,1,8) schedule(1,1,1,49) schedule(1,2,1,50) schedule(3,2,1,2) schedule(7,3,1,51) schedule(7,1,1,10) schedule(7,2,1,30) schedule(3,1,1,1) schedule(2,4,1,15) schedule(4,1,1,11) schedule(6,1,1,6)
+Optimization: 179
+Answer: 75
+schedule(5,2,1,6) schedule(5,4,1,2) schedule(8,4,1,1) schedule(8,2,1,5) schedule(9,2,1,13) schedule(9,3,1,10) schedule(9,4,1,6) schedule(10,3,1,12) schedule(10,4,1,8) schedule(1,1,1,49) schedule(1,2,1,50) schedule(3,2,1,2) schedule(7,3,1,51) schedule(7,1,1,10) schedule(7,2,1,30) schedule(3,1,1,1) schedule(2,4,1,15) schedule(4,1,1,11) schedule(6,1,1,6)
+Optimization: 177
+Answer: 76
+schedule(5,2,1,6) schedule(5,4,1,2) schedule(8,4,1,1) schedule(8,2,1,5) schedule(9,2,1,8) schedule(9,3,1,10) schedule(9,4,1,4) schedule(10,3,1,12) schedule(10,4,1,8) schedule(1,1,1,49) schedule(1,2,1,50) schedule(3,2,1,2) schedule(7,3,1,51) schedule(7,1,1,10) schedule(7,2,1,30) schedule(3,1,1,1) schedule(2,4,1,15) schedule(4,1,1,11) schedule(6,1,1,6)
+Optimization: 176
+Answer: 77
+schedule(5,2,1,7) schedule(5,4,1,3) schedule(8,2,2,7) schedule(8,4,2,2) schedule(9,2,1,19) schedule(9,3,1,21) schedule(9,4,1,15) schedule(10,3,1,27) schedule(10,4,1,17) schedule(1,1,1,49) schedule(1,2,1,50) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,1,55) schedule(7,1,1,58) schedule(7,2,1,59) schedule(2,4,1,13) schedule(4,1,2,21) schedule(6,1,4,19)
+Optimization: 175
+Answer: 78
+schedule(5,2,1,7) schedule(5,4,1,3) schedule(8,2,2,7) schedule(8,4,2,2) schedule(9,2,1,19) schedule(9,3,1,21) schedule(9,4,1,15) schedule(10,3,1,12) schedule(10,4,1,6) schedule(1,1,1,49) schedule(1,2,1,50) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,1,55) schedule(7,1,1,58) schedule(7,2,1,59) schedule(2,4,1,13) schedule(4,1,2,21) schedule(6,1,4,19)
+Optimization: 171
+Answer: 79
+schedule(5,2,1,7) schedule(5,4,1,3) schedule(8,2,2,7) schedule(8,4,2,2) schedule(9,2,1,19) schedule(9,3,1,21) schedule(9,4,1,15) schedule(10,3,1,6) schedule(10,4,1,2) schedule(1,1,1,49) schedule(1,2,1,50) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,1,55) schedule(7,1,1,58) schedule(7,2,1,59) schedule(2,4,1,13) schedule(4,1,2,21) schedule(6,1,4,19)
+Optimization: 169
+Answer: 80
+schedule(5,2,1,7) schedule(5,4,1,3) schedule(8,2,2,6) schedule(8,4,2,2) schedule(9,2,1,19) schedule(9,3,1,21) schedule(9,4,1,15) schedule(10,3,1,6) schedule(10,4,1,2) schedule(1,1,1,49) schedule(1,2,1,50) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,1,55) schedule(7,1,1,58) schedule(7,2,1,59) schedule(2,4,1,13) schedule(4,1,2,21) schedule(6,1,4,19)
+Optimization: 168
+Answer: 81
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,1,7) schedule(9,2,1,16) schedule(9,3,1,10) schedule(9,4,1,6) schedule(10,3,1,17) schedule(10,4,1,10) schedule(1,1,1,59) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,2,12) schedule(7,1,2,31) schedule(7,2,2,21) schedule(1,2,1,60) schedule(2,4,1,6) schedule(4,1,1,35) schedule(6,1,1,48)
+Optimization: 166
+Answer: 82
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,1,7) schedule(9,2,1,16) schedule(9,3,1,10) schedule(9,4,1,6) schedule(10,3,1,17) schedule(10,4,1,13) schedule(1,1,1,59) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,2,12) schedule(7,1,2,31) schedule(7,2,2,21) schedule(1,2,1,60) schedule(2,4,1,6) schedule(4,1,1,35) schedule(6,1,1,48)
+Optimization: 163
+Answer: 83
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,1,5) schedule(9,2,1,16) schedule(9,3,1,10) schedule(9,4,1,6) schedule(10,3,1,17) schedule(10,4,1,13) schedule(1,1,1,59) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,2,12) schedule(7,1,2,31) schedule(7,2,2,21) schedule(1,2,1,60) schedule(2,4,1,6) schedule(4,1,1,35) schedule(6,1,1,48)
+Optimization: 161
+Answer: 84
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,1,5) schedule(9,2,1,10) schedule(9,3,1,15) schedule(9,4,1,6) schedule(10,3,1,17) schedule(10,4,1,13) schedule(1,1,1,59) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,2,12) schedule(7,1,2,31) schedule(7,2,2,21) schedule(1,2,1,60) schedule(2,4,1,6) schedule(4,1,1,35) schedule(6,1,1,48)
+Optimization: 160
+Answer: 85
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,1,5) schedule(9,2,1,10) schedule(9,3,1,12) schedule(9,4,1,6) schedule(10,3,1,17) schedule(10,4,1,13) schedule(1,1,1,59) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,2,12) schedule(7,1,2,31) schedule(7,2,2,21) schedule(1,2,1,60) schedule(2,4,1,6) schedule(4,1,1,35) schedule(6,1,1,48)
+Optimization: 157
+Answer: 86
+schedule(5,2,1,6) schedule(5,4,1,2) schedule(8,4,1,1) schedule(8,2,1,5) schedule(9,2,1,21) schedule(9,3,1,23) schedule(9,4,1,17) schedule(10,4,1,1) schedule(10,3,1,5) schedule(1,1,1,59) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,2,48) schedule(7,1,2,54) schedule(7,2,2,36) schedule(1,2,1,60) schedule(2,4,1,16) schedule(4,1,1,53) schedule(6,1,1,48)
+Optimization: 156
+Answer: 87
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,1,5) schedule(9,2,1,19) schedule(9,3,1,21) schedule(9,4,1,15) schedule(10,3,1,21) schedule(10,4,1,17) schedule(1,1,1,39) schedule(1,2,1,40) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,1,16) schedule(7,1,2,27) schedule(7,2,2,9) schedule(2,4,1,16) schedule(4,1,1,12) schedule(6,1,1,34)
+Optimization: 153
+Answer: 88
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,1,5) schedule(9,2,1,15) schedule(9,3,1,7) schedule(9,4,1,2) schedule(10,3,1,21) schedule(10,4,1,17) schedule(1,1,1,39) schedule(1,2,1,40) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,1,16) schedule(7,2,1,19) schedule(7,1,2,27) schedule(2,4,1,16) schedule(4,1,1,12) schedule(6,1,1,34)
+Optimization: 150
+Answer: 89
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,1,5) schedule(9,2,1,15) schedule(9,3,1,10) schedule(9,4,1,4) schedule(10,3,1,21) schedule(10,4,1,17) schedule(1,1,1,39) schedule(1,2,1,40) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,1,16) schedule(7,2,1,19) schedule(7,1,2,27) schedule(2,4,1,16) schedule(4,1,1,12) schedule(6,1,1,34)
+Optimization: 146
+Answer: 90
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,1,5) schedule(9,2,1,15) schedule(9,3,1,10) schedule(9,4,1,5) schedule(10,3,1,21) schedule(10,4,1,17) schedule(1,1,1,39) schedule(1,2,1,40) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,1,16) schedule(7,2,1,19) schedule(7,1,2,27) schedule(2,4,1,16) schedule(4,1,1,12) schedule(6,1,1,34)
+Optimization: 144
+Answer: 91
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,1,5) schedule(9,2,1,15) schedule(9,3,1,10) schedule(9,4,1,6) schedule(10,3,1,21) schedule(10,4,1,17) schedule(1,1,1,39) schedule(1,2,1,40) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,1,16) schedule(7,2,1,19) schedule(7,1,2,27) schedule(2,4,1,16) schedule(4,1,1,12) schedule(6,1,1,34)
+Optimization: 142
+Answer: 92
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,1,5) schedule(9,2,1,12) schedule(9,3,1,16) schedule(9,4,1,8) schedule(10,3,1,21) schedule(10,4,1,17) schedule(1,1,1,39) schedule(1,2,1,40) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,1,16) schedule(7,2,1,19) schedule(7,1,2,27) schedule(2,4,1,16) schedule(4,1,1,12) schedule(6,1,1,34)
+Optimization: 141
+Answer: 93
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,1,5) schedule(9,2,1,12) schedule(9,3,1,16) schedule(9,4,1,8) schedule(10,3,1,21) schedule(10,4,1,17) schedule(1,1,1,39) schedule(1,2,1,40) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,1,31) schedule(7,1,1,35) schedule(7,2,1,40) schedule(2,4,1,16) schedule(4,1,1,12) schedule(6,1,1,34)
+Optimization: 132
+Answer: 94
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,1,5) schedule(9,2,1,12) schedule(9,3,1,16) schedule(9,4,1,8) schedule(10,3,1,21) schedule(10,4,1,17) schedule(1,1,1,39) schedule(1,2,1,40) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,1,31) schedule(7,1,1,35) schedule(7,2,1,38) schedule(2,4,1,16) schedule(4,1,1,12) schedule(6,1,1,34)
+Optimization: 128
+Answer: 95
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,1,5) schedule(9,2,1,12) schedule(9,3,1,16) schedule(9,4,1,8) schedule(10,3,1,21) schedule(10,4,1,17) schedule(1,1,1,39) schedule(1,2,1,40) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,1,31) schedule(7,1,1,35) schedule(7,2,1,29) schedule(2,4,1,16) schedule(4,1,1,12) schedule(6,1,1,34)
+Optimization: 126
+Answer: 96
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,1,5) schedule(9,2,1,12) schedule(9,3,1,16) schedule(9,4,1,8) schedule(10,3,1,21) schedule(10,4,1,17) schedule(1,1,1,39) schedule(1,2,1,40) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,1,31) schedule(7,1,1,35) schedule(7,2,1,37) schedule(2,4,1,16) schedule(4,1,1,12) schedule(6,1,1,34)
+Optimization: 125
+Answer: 97
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,1,5) schedule(9,2,1,12) schedule(9,3,1,16) schedule(9,4,1,8) schedule(10,3,1,21) schedule(10,4,1,17) schedule(1,1,1,39) schedule(1,2,1,40) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,1,31) schedule(7,1,1,35) schedule(7,2,1,36) schedule(2,4,1,16) schedule(4,1,1,12) schedule(6,1,1,34)
+Optimization: 124
+Answer: 98
+schedule(5,4,1,1) schedule(5,2,1,5) schedule(8,4,1,1) schedule(8,2,1,5) schedule(9,2,1,12) schedule(9,3,1,16) schedule(9,4,1,8) schedule(10,3,1,21) schedule(10,4,1,17) schedule(1,1,1,39) schedule(1,2,1,40) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,1,32) schedule(7,1,1,35) schedule(7,2,1,36) schedule(2,4,1,16) schedule(4,1,1,12) schedule(6,1,1,34)
+Optimization: 122
+Answer: 99
+schedule(5,2,1,15) schedule(5,4,1,9) schedule(8,4,1,1) schedule(8,2,1,5) schedule(9,2,1,8) schedule(9,3,1,10) schedule(9,4,1,4) schedule(10,3,1,14) schedule(10,4,1,9) schedule(1,1,1,12) schedule(1,2,1,13) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,1,38) schedule(7,1,1,41) schedule(7,2,1,42) schedule(2,4,1,16) schedule(4,1,1,4) schedule(6,1,1,58)
+Optimization: 121
+Answer: 100
+schedule(5,2,1,6) schedule(5,4,1,2) schedule(8,2,1,20) schedule(8,4,1,16) schedule(9,2,1,10) schedule(9,3,1,12) schedule(9,4,1,5) schedule(10,3,1,17) schedule(10,4,1,13) schedule(1,2,1,2) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,1,38) schedule(7,1,1,41) schedule(7,2,1,42) schedule(1,1,1,1) schedule(2,4,1,16) schedule(4,1,1,4) schedule(6,1,1,58)
+Optimization: 120
+Answer: 101
+schedule(5,2,1,6) schedule(5,4,1,2) schedule(8,2,1,21) schedule(8,4,1,16) schedule(9,2,1,10) schedule(9,3,1,12) schedule(9,4,1,6) schedule(10,3,1,17) schedule(10,4,1,13) schedule(1,2,1,2) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,1,38) schedule(7,1,1,41) schedule(7,2,1,42) schedule(1,1,1,1) schedule(2,4,1,16) schedule(4,1,1,4) schedule(6,1,1,58)
+Optimization: 119
+Answer: 102
+schedule(5,2,1,6) schedule(5,4,1,2) schedule(8,2,1,21) schedule(8,4,1,17) schedule(9,2,1,10) schedule(9,3,1,12) schedule(9,4,1,6) schedule(10,3,1,17) schedule(10,4,1,13) schedule(1,2,1,2) schedule(3,1,1,5) schedule(3,2,1,6) schedule(7,3,1,38) schedule(7,1,1,41) schedule(7,2,1,42) schedule(1,1,1,1) schedule(2,4,1,16) schedule(4,1,1,4) schedule(6,1,1,58)
+Optimization: 118
+OPTIMUM FOUND
+
+Models       : 102
+  Optimum    : yes
+Optimization : 118
+Calls        : 1
+Time         : 297.302s (Solving: 293.64s 1st Model: 0.05s Unsat: 2.07s)
+CPU Time     : 253.251s
+
+
+ASP - hard instance 1: 300.09 seconds
+clingo version 5.7.1
+Reading from hospital_constraints.lp ...
+Solving...
+Answer: 1
+schedule(4,3,1,1) schedule(6,1,5,60) schedule(9,3,2,1) schedule(10,1,5,60) schedule(1,4,1,1) schedule(2,4,5,1) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,1,4,2) schedule(8,4,5,1) schedule(9,4,5,1) schedule(10,3,4,60) schedule(10,4,5,1) schedule(1,1,5,1) schedule(2,1,2,1) schedule(3,1,4,1) schedule(5,4,1,8) schedule(7,3,5,51)
+Optimization: 796
+Answer: 2
+schedule(4,3,1,1) schedule(6,1,5,60) schedule(9,3,2,1) schedule(10,1,5,60) schedule(1,4,1,1) schedule(2,4,5,1) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,1,4,2) schedule(8,4,5,1) schedule(9,4,5,1) schedule(10,3,4,60) schedule(10,4,5,1) schedule(1,1,5,1) schedule(2,1,2,1) schedule(3,1,4,1) schedule(5,4,1,8) schedule(7,3,2,32)
+Optimization: 766
+Answer: 3
+schedule(4,3,1,1) schedule(6,1,5,60) schedule(9,3,1,4) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,5,4) schedule(2,4,5,1) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,1,4,2) schedule(8,4,5,1) schedule(9,4,5,1) schedule(10,3,4,60) schedule(10,4,5,1) schedule(2,1,2,1) schedule(3,1,4,1) schedule(5,4,2,1) schedule(7,3,1,60)
+Optimization: 756
+Answer: 4
+schedule(4,3,1,1) schedule(6,1,5,60) schedule(9,3,1,3) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,5,2) schedule(2,4,5,1) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,1,4,2) schedule(8,4,5,1) schedule(9,4,5,1) schedule(10,3,4,60) schedule(10,4,5,1) schedule(2,1,2,1) schedule(3,1,4,1) schedule(5,4,1,11) schedule(7,3,1,60)
+Optimization: 746
+Answer: 5
+schedule(4,3,1,1) schedule(6,1,5,60) schedule(9,3,2,4) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,2,2) schedule(2,4,5,1) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,1,4,2) schedule(8,4,5,1) schedule(9,4,5,1) schedule(10,3,4,60) schedule(10,4,5,1) schedule(2,1,2,1) schedule(3,1,4,1) schedule(5,4,2,17) schedule(7,3,1,32)
+Optimization: 736
+Answer: 6
+schedule(4,3,1,1) schedule(6,1,5,60) schedule(9,3,1,3) schedule(10,1,5,60) schedule(1,4,1,1) schedule(2,4,5,1) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,1,4,2) schedule(8,4,5,1) schedule(9,4,5,1) schedule(10,3,4,60) schedule(10,4,5,1) schedule(1,1,2,1) schedule(2,1,2,1) schedule(3,1,4,1) schedule(5,4,2,17) schedule(7,3,1,60)
+Optimization: 726
+Answer: 7
+schedule(4,3,1,1) schedule(6,1,5,60) schedule(9,3,1,2) schedule(10,1,5,60) schedule(1,4,1,1) schedule(2,1,2,2) schedule(2,4,5,1) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,1,4,2) schedule(8,4,5,1) schedule(9,4,5,1) schedule(10,3,4,60) schedule(10,4,5,1) schedule(1,1,2,1) schedule(3,1,4,1) schedule(5,4,1,17) schedule(7,3,1,60)
+Optimization: 716
+Answer: 8
+schedule(4,3,1,1) schedule(6,1,5,60) schedule(9,3,1,2) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,2,2) schedule(2,4,5,1) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,1,4,2) schedule(8,4,5,1) schedule(9,4,5,1) schedule(10,3,4,60) schedule(10,4,5,1) schedule(2,1,1,1) schedule(3,1,4,1) schedule(5,4,1,17) schedule(7,3,1,20)
+Optimization: 706
+Answer: 9
+schedule(4,3,3,4) schedule(6,1,5,60) schedule(9,3,1,2) schedule(10,1,5,60) schedule(1,4,1,1) schedule(2,4,5,1) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,1,1,2) schedule(8,4,5,1) schedule(9,4,5,1) schedule(10,3,4,60) schedule(10,4,5,1) schedule(1,1,2,1) schedule(2,1,1,1) schedule(3,1,4,1) schedule(5,4,1,17) schedule(7,3,1,60)
+Optimization: 696
+Answer: 10
+schedule(4,3,5,9) schedule(6,1,5,60) schedule(9,4,5,17) schedule(9,3,5,31) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,4,5,1) schedule(2,1,5,25) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,3,8) schedule(7,3,2,54)
+Optimization: 695
+Answer: 11
+schedule(4,3,5,9) schedule(6,1,5,60) schedule(9,4,5,17) schedule(9,3,5,31) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,2,4) schedule(2,4,5,1) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,3,8) schedule(7,3,2,54)
+Optimization: 692
+Answer: 12
+schedule(4,3,5,9) schedule(6,1,5,60) schedule(9,4,5,17) schedule(9,3,5,31) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,4,5,1) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(2,1,1,1) schedule(3,1,4,1) schedule(5,4,3,8) schedule(7,3,2,54)
+Optimization: 682
+Answer: 13
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,4,5,17) schedule(9,3,5,31) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,4,5,1) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(2,1,1,1) schedule(3,1,4,1) schedule(5,4,3,8) schedule(7,3,2,54)
+Optimization: 678
+Answer: 14
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,4,5,17) schedule(9,3,5,31) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,5,11) schedule(2,4,5,2) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,3,8) schedule(7,3,2,54)
+Optimization: 676
+Answer: 15
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,4,5,17) schedule(9,3,5,31) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,5,10) schedule(2,4,5,2) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,3,8) schedule(7,3,2,54)
+Optimization: 675
+Answer: 16
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,4,5,17) schedule(9,3,5,31) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,5,22) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,3,8) schedule(7,3,2,54)
+Optimization: 672
+Answer: 17
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,4,5,17) schedule(9,3,5,31) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,3,8) schedule(7,3,2,54)
+Optimization: 671
+Answer: 18
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,4,5,17) schedule(9,3,5,29) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,3,8) schedule(7,3,2,54)
+Optimization: 669
+Answer: 19
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,3,5,12) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(9,4,5,1) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,3,8) schedule(7,3,2,54)
+Optimization: 668
+Answer: 20
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,4,5,17) schedule(9,3,5,27) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,3,8) schedule(7,3,2,54)
+Optimization: 667
+Answer: 21
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,4,5,17) schedule(9,3,5,26) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,3,8) schedule(7,3,2,54)
+Optimization: 666
+Answer: 22
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,3,5,9) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(9,4,5,1) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,3,8) schedule(7,3,2,54)
+Optimization: 665
+Answer: 23
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,4,5,17) schedule(9,3,5,24) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,3,8) schedule(7,3,2,54)
+Optimization: 664
+Answer: 24
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,3,5,6) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(9,4,5,1) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,3,8) schedule(7,3,2,54)
+Optimization: 662
+Answer: 25
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,3,5,6) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(9,4,5,2) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,3,8) schedule(7,3,2,54)
+Optimization: 661
+Answer: 26
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,3,5,9) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(9,4,5,1) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,2,54)
+Optimization: 645
+Answer: 27
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,3,5,6) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(9,4,5,2) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,2,54)
+Optimization: 641
+Answer: 28
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,3,5,9) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(9,4,5,1) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 635
+Answer: 29
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,1,5,60) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 631
+Answer: 30
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,1,3,23) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 603
+Answer: 31
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,1,1,25) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 583
+Answer: 32
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,1,4,51) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 581
+Answer: 33
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,1,4,53) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 579
+Answer: 34
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,1,4,58) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 574
+Answer: 35
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,1,4,59) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,4,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 573
+Answer: 36
+schedule(4,3,5,5) schedule(6,1,5,60) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,1,4,59) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,3,1,60) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 543
+Answer: 37
+schedule(4,3,5,5) schedule(6,1,5,11) schedule(6,3,5,8) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,1,4,59) schedule(1,1,1,46) schedule(1,4,1,6) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 526
+Answer: 38
+schedule(4,3,5,5) schedule(6,1,5,7) schedule(6,3,5,8) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,1,4,59) schedule(1,1,1,46) schedule(1,4,1,6) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 522
+Answer: 39
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,9) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,1,4,59) schedule(1,1,1,46) schedule(1,4,1,6) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 521
+Answer: 40
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,1,4,59) schedule(1,1,1,46) schedule(1,4,1,6) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 518
+Answer: 41
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,9) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,1,4,59) schedule(1,1,1,38) schedule(1,4,1,2) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 517
+Answer: 42
+schedule(4,3,5,5) schedule(6,1,5,6) schedule(6,3,5,9) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,1,4,59) schedule(1,1,1,19) schedule(1,4,1,15) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 488
+Answer: 43
+schedule(4,3,5,5) schedule(6,1,5,6) schedule(6,3,5,8) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,1,4,59) schedule(1,1,1,19) schedule(1,4,1,15) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 486
+Answer: 44
+schedule(4,3,5,5) schedule(6,1,5,6) schedule(6,3,5,7) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,1,4,59) schedule(1,1,1,19) schedule(1,4,1,15) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 484
+Answer: 45
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,1,4,59) schedule(1,1,1,19) schedule(1,4,1,15) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,3,4,60) schedule(10,4,5,1) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 482
+Answer: 46
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,1,4,59) schedule(1,1,1,19) schedule(1,4,1,15) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,4,2,1) schedule(10,3,4,60) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 452
+Answer: 47
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,1,4,59) schedule(1,1,1,19) schedule(1,4,1,15) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,4,1,1) schedule(10,3,4,60) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 442
+Answer: 48
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,1,4,9) schedule(10,3,4,6) schedule(1,1,1,19) schedule(1,4,1,15) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,4,4,2) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 441
+Answer: 49
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,1,4,6) schedule(10,3,4,7) schedule(1,1,1,19) schedule(1,4,1,15) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,5,1) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(10,4,4,2) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 439
+Answer: 50
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,38) schedule(1,4,1,15) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,2,1) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 438
+Answer: 51
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,31) schedule(1,4,1,15) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,2,1) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 431
+Answer: 52
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,29) schedule(1,4,1,15) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,2,1) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 429
+Answer: 53
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,28) schedule(1,4,1,15) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,2,1) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 428
+Answer: 54
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,27) schedule(1,4,1,15) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,2,1) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 427
+Answer: 55
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,9) schedule(1,4,1,5) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,4,2,1) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(3,1,4,1) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 419
+Answer: 56
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,27) schedule(1,4,1,15) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,1,4,28) schedule(3,4,4,16) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 418
+Answer: 57
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,27) schedule(1,4,1,15) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,1,4,26) schedule(3,4,4,16) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 416
+Answer: 58
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,27) schedule(1,4,1,15) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,1,4,25) schedule(3,4,4,16) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 415
+Answer: 59
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,27) schedule(1,4,1,15) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,1,4,11) schedule(3,4,4,3) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 414
+Answer: 60
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,27) schedule(1,4,1,15) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,1,4,9) schedule(3,4,4,3) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 412
+Answer: 61
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,27) schedule(1,4,1,15) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,1,4,8) schedule(3,4,4,3) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 411
+Answer: 62
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,12) schedule(1,4,1,8) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,1,4,8) schedule(3,4,4,3) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 403
+Answer: 63
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,21) schedule(1,4,1,17) schedule(2,1,5,21) schedule(2,4,5,17) schedule(3,1,4,20) schedule(3,4,4,16) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 402
+Answer: 64
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,34) schedule(1,4,1,15) schedule(2,1,3,22) schedule(2,4,3,15) schedule(3,1,4,12) schedule(3,4,4,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 401
+Answer: 65
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,41) schedule(1,4,1,12) schedule(2,1,2,16) schedule(2,4,2,12) schedule(3,1,4,12) schedule(3,4,4,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 398
+Answer: 66
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,15) schedule(1,4,1,6) schedule(2,1,2,35) schedule(2,4,2,12) schedule(3,1,4,12) schedule(3,4,4,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 397
+Answer: 67
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,4,1,1) schedule(1,1,1,6) schedule(2,1,2,35) schedule(2,4,2,12) schedule(3,1,4,12) schedule(3,4,4,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 393
+Answer: 68
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,6) schedule(1,4,1,2) schedule(2,1,2,35) schedule(2,4,2,12) schedule(3,1,4,12) schedule(3,4,4,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 392
+Answer: 69
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,4,1,1) schedule(1,1,1,9) schedule(2,1,2,27) schedule(2,4,2,12) schedule(3,1,4,12) schedule(3,4,4,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 388
+Answer: 70
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,4,1,1) schedule(1,1,1,8) schedule(2,1,2,27) schedule(2,4,2,12) schedule(3,1,4,12) schedule(3,4,4,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 387
+Answer: 71
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,7) schedule(1,4,1,3) schedule(2,1,2,27) schedule(2,4,2,12) schedule(3,1,4,12) schedule(3,4,4,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 384
+Answer: 72
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,25) schedule(1,4,1,17) schedule(2,1,2,19) schedule(2,4,2,12) schedule(3,1,4,12) schedule(3,4,4,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 380
+Answer: 73
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,25) schedule(1,4,1,17) schedule(2,1,2,18) schedule(2,4,2,12) schedule(3,1,4,12) schedule(3,4,4,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 379
+Answer: 74
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,25) schedule(1,4,1,17) schedule(2,1,2,16) schedule(2,4,2,12) schedule(3,1,4,12) schedule(3,4,4,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 377
+Answer: 75
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,11) schedule(1,4,1,4) schedule(2,1,2,16) schedule(2,4,2,12) schedule(3,1,4,12) schedule(3,4,4,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 376
+Answer: 76
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,2,18) schedule(2,4,2,12) schedule(3,1,4,12) schedule(3,4,4,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 375
+Answer: 77
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,4,1,1) schedule(1,1,1,5) schedule(2,1,2,16) schedule(2,4,2,12) schedule(3,1,4,12) schedule(3,4,4,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 373
+Answer: 78
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,4,1,1) schedule(1,1,1,9) schedule(2,1,1,6) schedule(2,4,1,2) schedule(3,1,4,12) schedule(3,4,4,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 367
+Answer: 79
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,23) schedule(1,4,1,16) schedule(2,1,1,6) schedule(2,4,1,2) schedule(3,1,4,12) schedule(3,4,4,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 366
+Answer: 80
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,8) schedule(1,4,1,2) schedule(2,1,1,7) schedule(2,4,1,3) schedule(3,1,4,12) schedule(3,4,4,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 365
+Answer: 81
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,11) schedule(1,4,1,6) schedule(2,1,1,21) schedule(2,4,1,17) schedule(3,1,4,12) schedule(3,4,4,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 364
+Answer: 82
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,17) schedule(1,4,1,13) schedule(2,1,1,21) schedule(2,4,1,17) schedule(3,1,4,12) schedule(3,4,4,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 363
+Answer: 83
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,23) schedule(1,4,1,16) schedule(2,1,1,59) schedule(2,4,2,12) schedule(3,1,2,11) schedule(3,4,2,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 362
+Answer: 84
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,15) schedule(1,4,1,2) schedule(2,1,2,16) schedule(2,4,2,12) schedule(3,1,2,11) schedule(3,4,2,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 361
+Answer: 85
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,4,1,1) schedule(1,1,1,9) schedule(2,1,2,18) schedule(2,4,2,12) schedule(3,1,2,11) schedule(3,4,2,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 358
+Answer: 86
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,4,1,1) schedule(1,1,1,9) schedule(2,1,2,16) schedule(2,4,2,12) schedule(3,1,2,11) schedule(3,4,2,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 356
+Answer: 87
+schedule(4,3,5,5) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,10) schedule(10,1,4,21) schedule(10,3,4,15) schedule(1,1,1,11) schedule(1,4,1,7) schedule(2,1,2,14) schedule(2,4,2,9) schedule(3,1,2,11) schedule(3,4,2,7) schedule(4,4,5,1) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 353
+Answer: 88
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,23) schedule(10,3,4,13) schedule(1,1,1,13) schedule(1,4,1,8) schedule(2,1,2,19) schedule(2,4,2,15) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 352
+Answer: 89
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,23) schedule(10,3,4,13) schedule(1,4,1,1) schedule(1,1,1,6) schedule(2,1,2,21) schedule(2,4,2,17) schedule(3,1,1,6) schedule(3,4,1,2) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 351
+Answer: 90
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,23) schedule(10,3,4,13) schedule(1,1,1,9) schedule(1,4,1,5) schedule(2,1,2,6) schedule(2,4,2,2) schedule(3,1,1,6) schedule(3,4,1,2) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 350
+Answer: 91
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,19) schedule(1,4,1,3) schedule(2,1,2,6) schedule(2,4,2,2) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 349
+Answer: 92
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,10) schedule(1,4,1,2) schedule(2,1,2,13) schedule(2,4,2,2) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 348
+Answer: 93
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,23) schedule(1,4,1,15) schedule(2,1,2,12) schedule(2,4,2,2) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 347
+Answer: 94
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,24) schedule(1,4,1,16) schedule(2,1,2,11) schedule(2,4,2,2) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 346
+Answer: 95
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,24) schedule(1,4,1,16) schedule(2,1,2,10) schedule(2,4,2,2) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 345
+Answer: 96
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,12) schedule(1,4,1,4) schedule(2,1,2,7) schedule(2,4,2,2) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 342
+Answer: 97
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,20) schedule(1,4,1,12) schedule(2,1,2,6) schedule(2,4,2,2) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 341
+Answer: 98
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,10) schedule(1,4,1,3) schedule(2,1,2,6) schedule(2,4,2,2) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 340
+Answer: 99
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,23) schedule(1,4,1,17) schedule(2,1,2,6) schedule(2,4,2,2) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 339
+Answer: 100
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,21) schedule(1,4,1,16) schedule(2,1,2,6) schedule(2,4,2,2) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 338
+Answer: 101
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,6) schedule(1,4,1,2) schedule(2,1,2,6) schedule(2,4,2,2) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 337
+Answer: 102
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,8) schedule(1,4,1,4) schedule(2,1,2,6) schedule(2,4,2,2) schedule(3,1,1,6) schedule(3,4,1,2) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,4,5,1) schedule(8,1,5,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 336
+Answer: 103
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,21) schedule(1,4,1,13) schedule(2,1,2,17) schedule(2,4,2,9) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,1,2,32) schedule(8,4,2,8) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 335
+Answer: 104
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,12) schedule(1,4,1,4) schedule(2,1,2,9) schedule(2,4,2,2) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,1,2,32) schedule(8,4,2,8) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 334
+Answer: 105
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,12) schedule(1,4,1,4) schedule(2,1,2,8) schedule(2,4,2,2) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,1,2,32) schedule(8,4,2,8) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 333
+Answer: 106
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,12) schedule(1,4,1,4) schedule(2,1,2,17) schedule(2,4,2,12) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,1,2,32) schedule(8,4,2,8) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 332
+Answer: 107
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,12) schedule(1,4,1,4) schedule(2,1,2,6) schedule(2,4,2,2) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,1,2,32) schedule(8,4,2,8) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 331
+Answer: 108
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,7) schedule(1,4,1,3) schedule(2,1,2,9) schedule(2,4,2,2) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,1,2,32) schedule(8,4,2,8) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 330
+Answer: 109
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,7) schedule(1,4,1,3) schedule(2,1,2,8) schedule(2,4,2,2) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,1,2,32) schedule(8,4,2,8) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 329
+Answer: 110
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,7) schedule(1,4,1,3) schedule(2,1,2,17) schedule(2,4,2,12) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,1,2,32) schedule(8,4,2,8) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 328
+Answer: 111
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,7) schedule(1,4,1,3) schedule(2,1,2,17) schedule(2,4,2,13) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,1,2,32) schedule(8,4,2,8) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 327
+Answer: 112
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,7) schedule(1,4,1,3) schedule(2,1,2,17) schedule(2,4,2,13) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,4,1,17) schedule(8,1,2,32) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 314
+Answer: 113
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,7) schedule(1,4,1,3) schedule(2,1,2,17) schedule(2,4,2,13) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,1,2,25) schedule(8,4,2,17) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 311
+Answer: 114
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,7) schedule(1,4,1,3) schedule(2,1,2,17) schedule(2,4,2,13) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,1,2,22) schedule(8,4,2,17) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 308
+Answer: 115
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,5,5) schedule(9,3,5,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,7) schedule(1,4,1,3) schedule(2,1,2,17) schedule(2,4,2,13) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,1,2,21) schedule(8,4,2,17) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 307
+Answer: 116
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,4,11) schedule(9,3,4,15) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,7) schedule(1,4,1,3) schedule(2,1,2,17) schedule(2,4,2,13) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,4,1,17) schedule(8,1,2,32) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 304
+Answer: 117
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,1,5) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,7) schedule(1,4,1,3) schedule(2,1,2,17) schedule(2,4,2,13) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,4,1,17) schedule(8,1,2,32) schedule(9,3,2,59) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 291
+Answer: 118
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,1,5) schedule(9,3,1,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,7) schedule(1,4,1,3) schedule(2,1,2,17) schedule(2,4,2,13) schedule(3,4,1,1) schedule(3,1,1,6) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,4,1,17) schedule(8,1,2,32) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 274
+Answer: 119
+schedule(4,3,5,7) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,1,5) schedule(9,3,1,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,7) schedule(1,4,1,3) schedule(2,1,2,17) schedule(2,4,2,13) schedule(3,1,1,6) schedule(3,4,1,2) schedule(4,4,5,3) schedule(6,4,5,1) schedule(8,4,1,17) schedule(8,1,2,32) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 273
+Answer: 120
+schedule(4,4,5,16) schedule(4,3,5,25) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,1,5) schedule(9,3,1,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,7) schedule(1,4,1,3) schedule(2,1,2,17) schedule(2,4,2,13) schedule(3,4,1,1) schedule(3,1,1,6) schedule(6,4,5,1) schedule(8,1,2,20) schedule(8,4,2,16) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 272
+Answer: 121
+schedule(4,4,5,7) schedule(4,3,5,11) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,1,5) schedule(9,3,1,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,7) schedule(1,4,1,3) schedule(2,1,2,17) schedule(2,4,2,13) schedule(3,4,1,1) schedule(3,1,1,6) schedule(6,4,5,1) schedule(8,1,2,12) schedule(8,4,2,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 270
+Answer: 122
+schedule(4,4,5,5) schedule(4,3,5,9) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,1,5) schedule(9,3,1,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,7) schedule(1,4,1,3) schedule(2,1,2,17) schedule(2,4,2,13) schedule(3,4,1,1) schedule(3,1,1,6) schedule(6,4,5,1) schedule(8,1,2,20) schedule(8,4,2,15) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 268
+Answer: 123
+schedule(4,4,5,8) schedule(4,3,5,12) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,1,5) schedule(9,3,1,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,7) schedule(1,4,1,3) schedule(2,1,2,17) schedule(2,4,2,13) schedule(3,4,1,1) schedule(3,1,1,6) schedule(6,4,5,1) schedule(8,1,2,13) schedule(8,4,2,9) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 267
+Answer: 124
+schedule(4,4,5,4) schedule(4,3,5,8) schedule(6,1,5,5) schedule(6,3,5,6) schedule(9,4,1,5) schedule(9,3,1,9) schedule(10,4,4,8) schedule(10,1,4,16) schedule(10,3,4,13) schedule(1,1,1,7) schedule(1,4,1,3) schedule(2,1,2,17) schedule(2,4,2,13) schedule(3,1,1,6) schedule(3,4,1,2) schedule(6,4,5,1) schedule(8,1,2,21) schedule(8,4,2,17) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 266
+Answer: 125
+schedule(4,4,1,14) schedule(4,3,1,18) schedule(6,4,5,5) schedule(6,1,5,27) schedule(6,3,5,32) schedule(9,4,1,8) schedule(9,3,1,14) schedule(10,4,1,14) schedule(10,1,1,18) schedule(10,3,1,19) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,39) schedule(2,4,1,17) schedule(3,1,1,14) schedule(3,4,1,10) schedule(8,4,2,1) schedule(8,1,2,23) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 265
+Answer: 126
+schedule(4,4,1,15) schedule(4,3,1,19) schedule(6,4,5,5) schedule(6,1,5,27) schedule(6,3,5,32) schedule(9,4,1,8) schedule(9,3,1,14) schedule(10,4,1,14) schedule(10,1,1,18) schedule(10,3,1,19) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,39) schedule(2,4,1,17) schedule(3,1,1,14) schedule(3,4,1,10) schedule(8,4,2,1) schedule(8,1,2,11) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 253
+Answer: 127
+schedule(4,4,1,15) schedule(4,3,1,19) schedule(6,4,5,5) schedule(6,1,5,27) schedule(6,3,5,32) schedule(9,4,1,8) schedule(9,3,1,14) schedule(10,4,1,14) schedule(10,1,1,18) schedule(10,3,1,19) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,39) schedule(2,4,1,17) schedule(3,1,1,14) schedule(3,4,1,10) schedule(8,1,2,17) schedule(8,4,2,10) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 250
+Answer: 128
+schedule(4,4,1,15) schedule(4,3,1,19) schedule(6,4,5,5) schedule(6,1,5,27) schedule(6,3,5,32) schedule(9,4,1,8) schedule(9,3,1,14) schedule(10,4,1,14) schedule(10,1,1,18) schedule(10,3,1,19) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,39) schedule(2,4,1,17) schedule(3,1,1,14) schedule(3,4,1,10) schedule(8,1,2,22) schedule(8,4,2,16) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 249
+Answer: 129
+schedule(4,4,1,15) schedule(4,3,1,19) schedule(6,4,5,5) schedule(6,1,5,27) schedule(6,3,5,32) schedule(9,4,1,8) schedule(9,3,1,14) schedule(10,4,1,14) schedule(10,1,1,18) schedule(10,3,1,19) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,39) schedule(2,4,1,17) schedule(3,1,1,14) schedule(3,4,1,10) schedule(8,1,2,11) schedule(8,4,2,7) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 247
+Answer: 130
+schedule(4,4,1,15) schedule(4,3,1,19) schedule(6,4,5,5) schedule(6,1,5,27) schedule(6,3,5,32) schedule(9,4,1,8) schedule(9,3,1,14) schedule(10,4,1,14) schedule(10,1,1,18) schedule(10,3,1,19) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,8) schedule(2,4,1,2) schedule(3,1,1,14) schedule(3,4,1,10) schedule(8,4,2,1) schedule(8,1,2,11) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 237
+Answer: 131
+schedule(4,4,1,15) schedule(4,3,1,19) schedule(6,4,5,5) schedule(6,1,5,27) schedule(6,3,5,32) schedule(9,4,1,8) schedule(9,3,1,14) schedule(10,4,1,14) schedule(10,1,1,18) schedule(10,3,1,19) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,6) schedule(2,4,1,2) schedule(3,1,1,14) schedule(3,4,1,10) schedule(8,4,2,1) schedule(8,1,2,11) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 235
+Answer: 132
+schedule(4,4,1,15) schedule(4,3,1,19) schedule(6,4,5,5) schedule(6,1,5,27) schedule(6,3,5,32) schedule(9,4,1,8) schedule(9,3,1,14) schedule(10,4,1,14) schedule(10,1,1,18) schedule(10,3,1,19) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,6) schedule(2,4,1,2) schedule(3,1,1,14) schedule(3,4,1,10) schedule(8,1,2,15) schedule(8,4,2,8) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 232
+Answer: 133
+schedule(4,4,1,15) schedule(4,3,1,19) schedule(6,4,5,5) schedule(6,1,5,27) schedule(6,3,5,32) schedule(9,4,1,8) schedule(9,3,1,14) schedule(10,4,1,14) schedule(10,1,1,18) schedule(10,3,1,19) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,6) schedule(2,4,1,2) schedule(3,1,1,14) schedule(3,4,1,10) schedule(8,1,2,21) schedule(8,4,2,17) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 229
+Answer: 134
+schedule(4,4,1,12) schedule(4,3,1,16) schedule(6,4,5,5) schedule(6,1,5,32) schedule(6,3,5,25) schedule(9,4,1,8) schedule(9,3,1,14) schedule(10,4,1,14) schedule(10,1,1,18) schedule(10,3,1,19) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,7) schedule(2,4,1,2) schedule(3,1,1,14) schedule(3,4,1,10) schedule(8,4,2,1) schedule(8,1,2,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 228
+Answer: 135
+schedule(4,4,1,12) schedule(4,3,1,16) schedule(6,4,5,5) schedule(6,1,5,32) schedule(6,3,5,25) schedule(9,4,1,8) schedule(9,3,1,14) schedule(10,4,1,14) schedule(10,1,1,18) schedule(10,3,1,19) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,6) schedule(2,4,1,2) schedule(3,1,1,14) schedule(3,4,1,10) schedule(8,4,2,1) schedule(8,1,2,5) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 227
+Answer: 136
+schedule(4,4,1,9) schedule(4,3,1,21) schedule(6,4,5,5) schedule(6,1,5,32) schedule(6,3,5,25) schedule(9,4,1,8) schedule(9,3,1,14) schedule(10,4,1,11) schedule(10,1,1,15) schedule(10,3,1,16) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,6) schedule(2,4,1,2) schedule(3,1,1,14) schedule(3,4,1,10) schedule(8,1,1,12) schedule(8,4,1,7) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 226
+Answer: 137
+schedule(4,4,1,4) schedule(4,3,1,15) schedule(6,4,5,5) schedule(6,1,5,32) schedule(6,3,5,25) schedule(9,4,1,8) schedule(9,3,1,14) schedule(10,4,1,11) schedule(10,1,1,15) schedule(10,3,1,16) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,6) schedule(2,4,1,2) schedule(3,1,1,14) schedule(3,4,1,10) schedule(8,1,1,12) schedule(8,4,1,7) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 225
+Answer: 138
+schedule(4,4,1,14) schedule(4,3,1,24) schedule(6,4,5,5) schedule(6,1,5,32) schedule(6,3,5,25) schedule(9,4,1,8) schedule(9,3,1,14) schedule(10,4,1,11) schedule(10,1,1,15) schedule(10,3,1,16) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,6) schedule(2,4,1,2) schedule(3,1,1,14) schedule(3,4,1,10) schedule(8,1,1,12) schedule(8,4,1,7) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 224
+Answer: 139
+schedule(4,4,1,13) schedule(4,3,1,22) schedule(6,4,5,5) schedule(6,1,5,32) schedule(6,3,5,25) schedule(9,4,1,8) schedule(9,3,1,14) schedule(10,4,1,11) schedule(10,1,1,15) schedule(10,3,1,16) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,6) schedule(2,4,1,2) schedule(3,1,1,14) schedule(3,4,1,10) schedule(8,1,1,12) schedule(8,4,1,7) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 223
+Answer: 140
+schedule(4,4,1,5) schedule(4,3,1,12) schedule(6,4,5,5) schedule(6,1,5,32) schedule(6,3,5,25) schedule(9,4,1,8) schedule(9,3,1,14) schedule(10,4,1,11) schedule(10,1,1,15) schedule(10,3,1,16) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,6) schedule(2,4,1,2) schedule(3,1,1,14) schedule(3,4,1,10) schedule(8,1,1,12) schedule(8,4,1,7) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 221
+Answer: 141
+schedule(4,4,1,15) schedule(4,3,1,21) schedule(6,4,5,5) schedule(6,1,5,32) schedule(6,3,5,25) schedule(9,4,1,8) schedule(9,3,1,14) schedule(10,4,1,11) schedule(10,1,1,15) schedule(10,3,1,16) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,6) schedule(2,4,1,2) schedule(3,1,1,14) schedule(3,4,1,10) schedule(8,1,1,12) schedule(8,4,1,7) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 220
+Answer: 142
+schedule(4,4,1,12) schedule(4,3,1,16) schedule(6,4,5,5) schedule(6,1,5,32) schedule(6,3,5,25) schedule(9,4,1,8) schedule(9,3,1,14) schedule(10,4,1,11) schedule(10,1,1,15) schedule(10,3,1,16) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,6) schedule(2,4,1,2) schedule(3,1,1,14) schedule(3,4,1,10) schedule(8,1,1,12) schedule(8,4,1,7) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 218
+Answer: 143
+schedule(4,4,1,12) schedule(4,3,1,16) schedule(6,4,5,5) schedule(6,1,5,32) schedule(6,3,5,25) schedule(9,4,1,8) schedule(9,3,1,14) schedule(10,4,1,11) schedule(10,1,1,15) schedule(10,3,1,16) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,6) schedule(2,4,1,2) schedule(3,1,1,14) schedule(3,4,1,10) schedule(8,1,1,12) schedule(8,4,1,8) schedule(5,4,1,6) schedule(7,3,1,26)
+Optimization: 217
+Answer: 144
+schedule(4,4,1,15) schedule(4,3,1,19) schedule(6,1,5,22) schedule(6,3,5,27) schedule(9,4,1,8) schedule(9,3,1,14) schedule(10,4,1,11) schedule(10,1,1,15) schedule(10,3,1,16) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,6) schedule(2,4,1,2) schedule(3,1,1,14) schedule(3,4,1,10) schedule(6,4,5,2) schedule(8,1,1,12) schedule(8,4,1,7) schedule(5,4,1,6) schedule(7,3,1,32)
+Optimization: 216
+Answer: 145
+schedule(4,4,1,15) schedule(4,3,1,19) schedule(6,4,5,7) schedule(6,1,5,22) schedule(6,3,5,27) schedule(9,4,1,8) schedule(9,3,1,14) schedule(10,4,1,11) schedule(10,1,1,15) schedule(10,3,1,16) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,6) schedule(2,4,1,2) schedule(3,1,1,14) schedule(3,4,1,10) schedule(8,1,1,12) schedule(8,4,1,7) schedule(5,4,1,6) schedule(7,3,1,56)
+Optimization: 206
+Answer: 146
+schedule(4,4,1,15) schedule(4,3,1,19) schedule(6,4,5,14) schedule(6,1,5,34) schedule(6,3,5,27) schedule(9,4,1,8) schedule(9,3,1,14) schedule(10,4,1,11) schedule(10,1,1,15) schedule(10,3,1,16) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,6) schedule(2,4,1,2) schedule(3,1,1,14) schedule(3,4,1,10) schedule(8,1,1,12) schedule(8,4,1,7) schedule(5,4,1,6) schedule(7,3,1,56)
+Optimization: 204
+Answer: 147
+schedule(4,4,1,15) schedule(4,3,1,19) schedule(6,4,5,7) schedule(6,1,5,27) schedule(6,3,5,20) schedule(9,4,1,8) schedule(9,3,1,14) schedule(10,4,1,11) schedule(10,1,1,15) schedule(10,3,1,16) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,6) schedule(2,4,1,2) schedule(3,1,1,14) schedule(3,4,1,10) schedule(8,1,1,9) schedule(8,4,1,5) schedule(5,4,1,6) schedule(7,3,1,56)
+Optimization: 203
+Answer: 148
+schedule(4,4,1,15) schedule(4,3,1,19) schedule(6,1,5,21) schedule(6,3,5,14) schedule(9,4,1,8) schedule(9,3,1,12) schedule(10,4,1,11) schedule(10,1,1,15) schedule(10,3,1,16) schedule(1,1,1,22) schedule(1,4,1,17) schedule(2,1,1,6) schedule(2,4,1,2) schedule(3,1,1,14) schedule(3,4,1,10) schedule(6,4,5,1) schedule(8,1,1,6) schedule(8,4,1,2) schedule(5,4,1,6) schedule(7,3,1,56)
+Optimization: 201
+Answer: 149
+schedule(4,4,1,15) schedule(4,3,1,19) schedule(6,1,5,21) schedule(6,3,5,14) schedule(9,4,1,8) schedule(9,3,1,12) schedule(10,4,1,11) schedule(10,1,1,15) schedule(10,3,1,16) schedule(1,1,1,21) schedule(1,4,1,17) schedule(2,1,1,6) schedule(2,4,1,2) schedule(3,1,1,14) schedule(3,4,1,10) schedule(6,4,5,1) schedule(8,1,1,8) schedule(8,4,1,4) schedule(5,4,1,6) schedule(7,3,1,56)
+Optimization: 200
+Answer: 150
+schedule(4,4,1,11) schedule(4,3,1,15) schedule(6,4,2,4) schedule(6,1,2,8) schedule(6,3,2,9) schedule(9,3,1,11) schedule(10,4,1,16) schedule(10,1,1,44) schedule(10,3,1,20) schedule(1,1,1,25) schedule(1,4,1,16) schedule(2,1,1,13) schedule(2,4,1,7) schedule(3,4,1,1) schedule(3,1,1,5) schedule(8,1,1,20) schedule(8,4,1,14) schedule(9,4,1,3) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 199
+Answer: 151
+schedule(4,4,1,11) schedule(4,3,1,15) schedule(6,4,2,4) schedule(6,1,2,8) schedule(6,3,2,9) schedule(9,3,1,11) schedule(10,4,1,16) schedule(10,1,1,44) schedule(10,3,1,20) schedule(1,1,1,11) schedule(1,4,1,2) schedule(2,1,1,13) schedule(2,4,1,7) schedule(3,4,1,1) schedule(3,1,1,5) schedule(8,1,1,12) schedule(8,4,1,7) schedule(9,4,1,3) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 198
+Answer: 152
+schedule(4,4,1,11) schedule(4,3,1,15) schedule(6,4,2,4) schedule(6,1,2,8) schedule(6,3,2,9) schedule(9,3,1,11) schedule(10,4,1,16) schedule(10,1,1,44) schedule(10,3,1,20) schedule(1,1,1,11) schedule(1,4,1,2) schedule(2,1,1,13) schedule(2,4,1,7) schedule(3,4,1,1) schedule(3,1,1,5) schedule(8,1,1,20) schedule(8,4,1,16) schedule(9,4,1,3) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 197
+Answer: 153
+schedule(4,4,1,11) schedule(4,3,1,15) schedule(6,1,1,11) schedule(6,3,1,8) schedule(9,3,1,11) schedule(10,4,1,16) schedule(10,1,1,44) schedule(10,3,1,20) schedule(1,1,1,15) schedule(1,4,1,6) schedule(2,1,1,13) schedule(2,4,1,7) schedule(3,4,1,1) schedule(3,1,1,5) schedule(6,4,1,3) schedule(8,1,1,20) schedule(8,4,1,13) schedule(9,4,1,3) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 194
+Answer: 154
+schedule(4,4,1,11) schedule(4,3,1,15) schedule(6,4,1,17) schedule(6,1,1,21) schedule(6,3,1,22) schedule(9,3,1,11) schedule(10,4,1,16) schedule(10,1,1,44) schedule(10,3,1,20) schedule(1,1,1,11) schedule(1,4,1,2) schedule(2,1,1,13) schedule(2,4,1,7) schedule(3,4,1,1) schedule(3,1,1,5) schedule(8,1,1,21) schedule(8,4,1,12) schedule(9,4,1,3) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 192
+Answer: 155
+schedule(4,4,1,11) schedule(4,3,1,15) schedule(6,4,1,6) schedule(6,1,1,11) schedule(6,3,1,12) schedule(9,3,1,11) schedule(10,4,1,16) schedule(10,1,1,44) schedule(10,3,1,20) schedule(1,1,1,11) schedule(1,4,1,2) schedule(2,1,1,13) schedule(2,4,1,7) schedule(3,4,1,1) schedule(3,1,1,5) schedule(8,1,1,9) schedule(8,4,1,3) schedule(9,4,1,3) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 191
+Answer: 156
+schedule(4,4,1,11) schedule(4,3,1,15) schedule(6,4,1,5) schedule(6,1,1,10) schedule(6,3,1,11) schedule(9,3,1,11) schedule(10,4,1,16) schedule(10,1,1,44) schedule(10,3,1,20) schedule(1,1,1,25) schedule(1,4,1,16) schedule(2,1,1,13) schedule(2,4,1,7) schedule(3,4,1,1) schedule(3,1,1,5) schedule(8,1,1,7) schedule(8,4,1,2) schedule(9,4,1,3) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 190
+Answer: 157
+schedule(4,4,1,11) schedule(4,3,1,15) schedule(6,4,1,13) schedule(6,1,1,18) schedule(6,3,1,19) schedule(9,3,1,11) schedule(10,4,1,16) schedule(10,1,1,44) schedule(10,3,1,20) schedule(1,1,1,25) schedule(1,4,1,16) schedule(2,1,1,13) schedule(2,4,1,7) schedule(3,4,1,1) schedule(3,1,1,5) schedule(8,1,1,6) schedule(8,4,1,2) schedule(9,4,1,3) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 189
+Answer: 158
+schedule(4,4,1,11) schedule(4,3,1,15) schedule(6,4,1,14) schedule(6,1,1,18) schedule(6,3,1,19) schedule(9,3,1,11) schedule(10,4,1,16) schedule(10,1,1,44) schedule(10,3,1,20) schedule(1,1,1,11) schedule(1,4,1,2) schedule(2,1,1,13) schedule(2,4,1,7) schedule(3,4,1,1) schedule(3,1,1,5) schedule(8,4,1,1) schedule(8,1,1,6) schedule(9,4,1,3) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 188
+Answer: 159
+schedule(4,4,1,11) schedule(4,3,1,15) schedule(6,4,1,8) schedule(6,1,1,12) schedule(6,3,1,13) schedule(9,3,1,11) schedule(10,4,1,16) schedule(10,1,1,44) schedule(10,3,1,20) schedule(1,1,1,11) schedule(1,4,1,2) schedule(2,1,1,13) schedule(2,4,1,7) schedule(3,4,1,1) schedule(3,1,1,5) schedule(8,4,1,1) schedule(8,1,1,5) schedule(9,4,1,3) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 187
+Answer: 160
+schedule(4,4,1,11) schedule(4,3,1,15) schedule(6,4,1,16) schedule(6,1,1,20) schedule(6,3,1,21) schedule(9,3,1,11) schedule(10,4,1,16) schedule(10,1,1,44) schedule(10,3,1,20) schedule(1,1,1,11) schedule(1,4,1,2) schedule(2,1,1,11) schedule(2,4,1,7) schedule(3,4,1,1) schedule(3,1,1,5) schedule(8,1,1,19) schedule(8,4,1,14) schedule(9,4,1,3) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 186
+Answer: 161
+schedule(4,4,1,11) schedule(4,3,1,15) schedule(6,4,1,6) schedule(6,1,1,10) schedule(6,3,1,11) schedule(9,3,1,11) schedule(10,4,1,16) schedule(10,1,1,44) schedule(10,3,1,20) schedule(1,1,1,24) schedule(1,4,1,15) schedule(2,1,1,11) schedule(2,4,1,7) schedule(3,4,1,1) schedule(3,1,1,5) schedule(8,1,1,11) schedule(8,4,1,7) schedule(9,4,1,3) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 185
+Answer: 162
+schedule(4,4,1,11) schedule(4,3,1,16) schedule(6,4,1,6) schedule(6,1,1,10) schedule(6,3,1,12) schedule(9,4,1,5) schedule(9,3,1,13) schedule(10,4,1,17) schedule(10,1,1,45) schedule(10,3,1,39) schedule(1,1,1,17) schedule(1,4,1,12) schedule(2,1,1,18) schedule(2,4,1,14) schedule(3,4,1,1) schedule(3,1,1,5) schedule(8,1,1,14) schedule(8,4,1,10) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 184
+Answer: 163
+schedule(4,4,1,11) schedule(4,3,1,15) schedule(6,4,1,6) schedule(6,1,1,10) schedule(6,3,1,12) schedule(9,4,1,5) schedule(9,3,1,13) schedule(10,4,1,17) schedule(10,1,1,45) schedule(10,3,1,39) schedule(1,1,1,17) schedule(1,4,1,12) schedule(2,1,1,18) schedule(2,4,1,14) schedule(3,4,1,1) schedule(3,1,1,5) schedule(8,1,1,14) schedule(8,4,1,10) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 183
+Answer: 164
+schedule(4,4,1,12) schedule(4,3,1,16) schedule(6,4,1,13) schedule(6,1,1,18) schedule(6,3,1,19) schedule(9,4,1,5) schedule(9,3,1,13) schedule(10,4,1,17) schedule(10,1,1,45) schedule(10,3,1,39) schedule(1,1,1,14) schedule(1,4,1,10) schedule(2,1,1,18) schedule(2,4,1,14) schedule(3,4,1,1) schedule(3,1,1,5) schedule(8,1,1,21) schedule(8,4,1,17) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 182
+Answer: 165
+schedule(4,3,1,16) schedule(6,4,1,13) schedule(6,1,1,18) schedule(6,3,1,19) schedule(9,4,1,5) schedule(9,3,1,13) schedule(10,4,1,17) schedule(10,3,1,39) schedule(10,1,2,5) schedule(1,1,1,14) schedule(1,4,1,10) schedule(2,1,1,18) schedule(2,4,1,14) schedule(3,4,1,1) schedule(3,1,1,5) schedule(4,4,1,3) schedule(8,1,1,21) schedule(8,4,1,17) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 181
+Answer: 166
+schedule(4,4,1,4) schedule(4,3,1,16) schedule(6,4,1,13) schedule(6,1,1,18) schedule(6,3,1,19) schedule(9,4,1,5) schedule(9,3,1,13) schedule(10,4,1,17) schedule(10,3,1,39) schedule(10,1,2,5) schedule(1,1,1,14) schedule(1,4,1,10) schedule(2,1,1,18) schedule(2,4,1,14) schedule(3,4,1,1) schedule(3,1,1,5) schedule(8,1,1,21) schedule(8,4,1,17) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 180
+Answer: 167
+schedule(4,4,1,5) schedule(4,3,1,16) schedule(6,4,1,13) schedule(6,1,1,18) schedule(6,3,1,19) schedule(9,4,1,5) schedule(9,3,1,13) schedule(10,4,1,17) schedule(10,3,1,39) schedule(10,1,2,5) schedule(1,1,1,14) schedule(1,4,1,10) schedule(2,1,1,18) schedule(2,4,1,14) schedule(3,4,1,1) schedule(3,1,1,5) schedule(8,1,1,21) schedule(8,4,1,17) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 179
+Answer: 168
+schedule(4,4,1,7) schedule(4,3,1,17) schedule(6,4,1,13) schedule(6,1,1,18) schedule(6,3,1,19) schedule(9,4,1,5) schedule(9,3,1,13) schedule(10,4,1,17) schedule(10,3,1,39) schedule(10,1,2,5) schedule(1,1,1,14) schedule(1,4,1,10) schedule(2,1,1,18) schedule(2,4,1,14) schedule(3,4,1,1) schedule(3,1,1,5) schedule(8,1,1,21) schedule(8,4,1,17) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 178
+Answer: 169
+schedule(4,4,1,7) schedule(4,3,1,17) schedule(6,4,1,13) schedule(6,1,1,18) schedule(6,3,1,19) schedule(9,4,1,5) schedule(9,3,1,13) schedule(10,4,1,10) schedule(10,1,1,21) schedule(10,3,1,32) schedule(1,1,1,14) schedule(1,4,1,10) schedule(2,1,1,18) schedule(2,4,1,14) schedule(3,4,1,1) schedule(3,1,1,5) schedule(8,1,1,21) schedule(8,4,1,17) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 168
+Answer: 170
+schedule(4,4,1,5) schedule(4,3,1,13) schedule(6,4,1,13) schedule(6,1,1,18) schedule(6,3,1,19) schedule(9,4,1,5) schedule(9,3,1,13) schedule(10,4,1,10) schedule(10,1,1,21) schedule(10,3,1,32) schedule(1,1,1,14) schedule(1,4,1,10) schedule(2,1,1,18) schedule(2,4,1,14) schedule(3,4,1,1) schedule(3,1,1,5) schedule(8,1,1,21) schedule(8,4,1,17) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 166
+Answer: 171
+schedule(4,3,1,10) schedule(6,4,1,13) schedule(6,1,1,18) schedule(6,3,1,19) schedule(9,4,1,5) schedule(9,3,1,13) schedule(10,4,1,10) schedule(10,1,1,21) schedule(10,3,1,32) schedule(1,1,1,14) schedule(1,4,1,10) schedule(2,1,1,18) schedule(2,4,1,14) schedule(3,4,1,1) schedule(3,1,1,5) schedule(4,4,1,3) schedule(8,1,1,21) schedule(8,4,1,17) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 165
+Answer: 172
+schedule(4,4,1,12) schedule(4,3,1,17) schedule(6,4,1,13) schedule(6,1,1,18) schedule(6,3,1,19) schedule(9,4,1,5) schedule(9,3,1,13) schedule(10,4,1,10) schedule(10,1,1,21) schedule(10,3,1,32) schedule(1,1,1,14) schedule(1,4,1,10) schedule(2,1,1,18) schedule(2,4,1,14) schedule(3,4,1,1) schedule(3,1,1,5) schedule(8,1,1,21) schedule(8,4,1,17) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 163
+Answer: 173
+schedule(4,4,1,13) schedule(4,3,1,17) schedule(6,4,1,13) schedule(6,1,1,18) schedule(6,3,1,19) schedule(9,4,1,5) schedule(9,3,1,13) schedule(10,4,1,10) schedule(10,1,1,21) schedule(10,3,1,32) schedule(1,1,1,14) schedule(1,4,1,10) schedule(2,1,1,18) schedule(2,4,1,14) schedule(3,4,1,1) schedule(3,1,1,5) schedule(8,1,1,21) schedule(8,4,1,17) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 162
+Answer: 174
+schedule(4,4,1,13) schedule(4,3,1,17) schedule(6,4,1,13) schedule(6,1,1,18) schedule(6,3,1,19) schedule(9,4,1,5) schedule(9,3,1,13) schedule(10,1,1,23) schedule(10,3,1,11) schedule(1,1,1,14) schedule(1,4,1,10) schedule(2,1,1,18) schedule(2,4,1,14) schedule(3,4,1,1) schedule(3,1,1,5) schedule(8,1,1,21) schedule(8,4,1,17) schedule(10,4,1,1) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 161
+Answer: 175
+schedule(4,4,1,7) schedule(4,3,1,11) schedule(6,1,1,7) schedule(6,3,1,9) schedule(9,4,1,5) schedule(9,3,1,10) schedule(10,4,1,16) schedule(10,1,1,27) schedule(10,3,1,38) schedule(1,1,1,21) schedule(1,4,1,17) schedule(2,1,1,19) schedule(2,4,1,14) schedule(3,1,1,13) schedule(3,4,1,9) schedule(6,4,1,3) schedule(8,1,1,19) schedule(8,4,1,15) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 160
+Answer: 176
+schedule(4,4,1,7) schedule(4,3,1,11) schedule(6,1,1,7) schedule(6,3,1,9) schedule(9,4,1,5) schedule(9,3,1,10) schedule(10,4,1,16) schedule(10,1,1,38) schedule(10,3,1,26) schedule(1,1,1,21) schedule(1,4,1,17) schedule(2,1,1,19) schedule(2,4,1,14) schedule(3,1,1,13) schedule(3,4,1,9) schedule(6,4,1,3) schedule(8,1,1,19) schedule(8,4,1,15) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 159
+Answer: 177
+schedule(4,4,1,7) schedule(4,3,1,11) schedule(6,1,1,7) schedule(6,3,1,9) schedule(9,4,1,6) schedule(9,3,1,10) schedule(10,4,1,16) schedule(10,1,1,38) schedule(10,3,1,26) schedule(1,1,1,21) schedule(1,4,1,17) schedule(2,1,1,19) schedule(2,4,1,14) schedule(3,1,1,13) schedule(3,4,1,9) schedule(6,4,1,3) schedule(8,1,1,19) schedule(8,4,1,15) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 158
+Answer: 178
+schedule(4,4,1,7) schedule(4,3,1,11) schedule(6,1,1,7) schedule(6,3,1,9) schedule(9,4,1,17) schedule(9,3,1,21) schedule(10,4,1,16) schedule(10,1,1,38) schedule(10,3,1,26) schedule(1,1,1,21) schedule(1,4,1,17) schedule(2,1,1,18) schedule(2,4,1,14) schedule(3,1,1,13) schedule(3,4,1,9) schedule(6,4,1,3) schedule(8,1,1,19) schedule(8,4,1,15) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 157
+Answer: 179
+schedule(4,4,1,7) schedule(4,3,1,11) schedule(6,4,1,4) schedule(6,1,1,8) schedule(6,3,1,9) schedule(9,4,1,17) schedule(9,3,1,21) schedule(10,4,1,14) schedule(10,1,1,25) schedule(10,3,1,36) schedule(1,1,1,21) schedule(1,4,1,17) schedule(2,1,1,18) schedule(2,4,1,14) schedule(3,1,1,13) schedule(3,4,1,9) schedule(8,1,1,19) schedule(8,4,1,15) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 156
+Answer: 180
+schedule(4,4,1,7) schedule(4,3,1,11) schedule(6,4,1,4) schedule(6,1,1,8) schedule(6,3,1,9) schedule(9,4,1,17) schedule(9,3,1,21) schedule(10,4,1,14) schedule(10,1,1,36) schedule(10,3,1,24) schedule(1,1,1,21) schedule(1,4,1,17) schedule(2,1,1,18) schedule(2,4,1,14) schedule(3,1,1,13) schedule(3,4,1,9) schedule(8,1,1,19) schedule(8,4,1,15) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 155
+Answer: 181
+schedule(4,4,1,7) schedule(4,3,1,11) schedule(6,1,1,7) schedule(6,3,1,9) schedule(9,4,1,6) schedule(9,3,1,14) schedule(10,4,1,12) schedule(10,1,1,16) schedule(10,3,1,17) schedule(1,1,1,21) schedule(1,4,1,17) schedule(2,1,1,18) schedule(2,4,1,14) schedule(3,1,1,13) schedule(3,4,1,9) schedule(6,4,1,3) schedule(8,1,1,36) schedule(8,4,1,16) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 154
+Answer: 182
+schedule(4,4,1,7) schedule(4,3,1,11) schedule(6,4,1,16) schedule(6,1,1,28) schedule(6,3,1,20) schedule(9,4,1,5) schedule(9,3,1,11) schedule(10,4,1,10) schedule(10,1,1,14) schedule(10,3,1,15) schedule(1,1,1,21) schedule(1,4,1,17) schedule(2,1,1,22) schedule(2,4,1,12) schedule(3,1,1,13) schedule(3,4,1,9) schedule(8,1,1,9) schedule(8,4,1,5) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 152
+Answer: 183
+schedule(4,4,1,7) schedule(4,3,1,11) schedule(6,4,1,16) schedule(6,1,1,28) schedule(6,3,1,20) schedule(9,4,1,5) schedule(9,3,1,10) schedule(10,4,1,16) schedule(10,1,1,20) schedule(10,3,1,21) schedule(1,1,1,21) schedule(1,4,1,17) schedule(2,1,1,22) schedule(2,4,1,12) schedule(3,1,1,13) schedule(3,4,1,9) schedule(8,1,1,9) schedule(8,4,1,5) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 151
+Answer: 184
+schedule(4,4,1,7) schedule(4,3,1,11) schedule(6,4,1,16) schedule(6,1,1,28) schedule(6,3,1,20) schedule(9,4,1,5) schedule(9,3,1,9) schedule(10,4,1,16) schedule(10,1,1,20) schedule(10,3,1,21) schedule(1,1,1,21) schedule(1,4,1,17) schedule(2,1,1,22) schedule(2,4,1,12) schedule(3,1,1,13) schedule(3,4,1,9) schedule(8,1,1,9) schedule(8,4,1,5) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 150
+Answer: 185
+schedule(4,4,1,7) schedule(4,3,1,11) schedule(6,4,1,8) schedule(6,1,1,12) schedule(6,3,1,14) schedule(9,4,1,5) schedule(9,3,1,10) schedule(10,4,1,13) schedule(10,1,1,23) schedule(10,3,1,18) schedule(1,1,1,21) schedule(1,4,1,17) schedule(2,1,1,22) schedule(2,4,1,12) schedule(3,1,1,13) schedule(3,4,1,9) schedule(8,1,1,9) schedule(8,4,1,5) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 149
+Answer: 186
+schedule(4,4,1,7) schedule(4,3,1,11) schedule(6,4,1,8) schedule(6,1,1,12) schedule(6,3,1,14) schedule(9,4,1,5) schedule(9,3,1,11) schedule(10,4,1,11) schedule(10,1,1,18) schedule(10,3,1,19) schedule(1,1,1,21) schedule(1,4,1,17) schedule(2,1,1,22) schedule(2,4,1,12) schedule(3,1,1,13) schedule(3,4,1,9) schedule(8,1,1,9) schedule(8,4,1,5) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 148
+Answer: 187
+schedule(4,4,1,7) schedule(4,3,1,11) schedule(6,4,1,8) schedule(6,1,1,12) schedule(6,3,1,14) schedule(9,4,1,5) schedule(9,3,1,11) schedule(10,4,1,17) schedule(10,1,1,25) schedule(10,3,1,22) schedule(1,1,1,21) schedule(1,4,1,17) schedule(2,1,1,22) schedule(2,4,1,12) schedule(3,1,1,13) schedule(3,4,1,9) schedule(8,1,1,9) schedule(8,4,1,5) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 146
+Answer: 188
+schedule(4,4,1,7) schedule(4,3,1,11) schedule(6,4,1,8) schedule(6,1,1,12) schedule(6,3,1,14) schedule(9,4,1,5) schedule(9,3,1,11) schedule(10,4,1,17) schedule(10,1,1,21) schedule(10,3,1,22) schedule(1,1,1,21) schedule(1,4,1,17) schedule(2,1,1,22) schedule(2,4,1,12) schedule(3,1,1,13) schedule(3,4,1,9) schedule(8,1,1,9) schedule(8,4,1,5) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 142
+Answer: 189
+schedule(4,4,1,7) schedule(4,3,1,11) schedule(6,4,1,8) schedule(6,1,1,12) schedule(6,3,1,14) schedule(9,4,1,5) schedule(9,3,1,10) schedule(10,4,1,17) schedule(10,1,1,21) schedule(10,3,1,22) schedule(1,1,1,21) schedule(1,4,1,17) schedule(2,1,1,22) schedule(2,4,1,12) schedule(3,1,1,13) schedule(3,4,1,9) schedule(8,1,1,9) schedule(8,4,1,5) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 141
+Answer: 190
+schedule(4,4,1,7) schedule(4,3,1,11) schedule(6,4,1,8) schedule(6,1,1,12) schedule(6,3,1,14) schedule(9,4,1,5) schedule(9,3,1,9) schedule(10,4,1,17) schedule(10,1,1,21) schedule(10,3,1,22) schedule(1,1,1,21) schedule(1,4,1,17) schedule(2,1,1,22) schedule(2,4,1,12) schedule(3,1,1,13) schedule(3,4,1,9) schedule(8,1,1,9) schedule(8,4,1,5) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 140
+Answer: 191
+schedule(4,4,1,7) schedule(4,3,1,11) schedule(6,4,1,8) schedule(6,1,1,12) schedule(6,3,1,14) schedule(9,4,1,5) schedule(9,3,1,9) schedule(10,4,1,17) schedule(10,1,1,25) schedule(10,3,1,22) schedule(1,1,1,21) schedule(1,4,1,17) schedule(2,1,1,22) schedule(2,4,1,17) schedule(3,1,1,13) schedule(3,4,1,9) schedule(8,1,1,9) schedule(8,4,1,5) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 139
+Answer: 192
+schedule(4,4,1,7) schedule(4,3,1,11) schedule(6,4,1,8) schedule(6,1,1,12) schedule(6,3,1,14) schedule(9,4,1,5) schedule(9,3,1,9) schedule(10,4,1,17) schedule(10,1,1,25) schedule(10,3,1,22) schedule(1,1,1,21) schedule(1,4,1,17) schedule(2,1,1,21) schedule(2,4,1,17) schedule(3,1,1,13) schedule(3,4,1,9) schedule(8,1,1,9) schedule(8,4,1,5) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 138
+Answer: 193
+schedule(4,4,1,7) schedule(4,3,1,11) schedule(6,4,1,8) schedule(6,1,1,12) schedule(6,3,1,14) schedule(9,4,1,5) schedule(9,3,1,9) schedule(10,4,1,17) schedule(10,1,1,21) schedule(10,3,1,25) schedule(1,1,1,21) schedule(1,4,1,17) schedule(2,1,1,21) schedule(2,4,1,17) schedule(3,1,1,13) schedule(3,4,1,9) schedule(8,1,1,9) schedule(8,4,1,5) schedule(5,4,1,6) schedule(7,3,1,60)
+Optimization: 137
+Answer: 194
+schedule(4,4,1,7) schedule(4,3,1,11) schedule(6,4,1,17) schedule(6,1,1,21) schedule(6,3,1,22) schedule(9,4,1,7) schedule(9,3,1,11) schedule(10,4,1,5) schedule(10,1,1,13) schedule(10,3,1,10) schedule(1,1,1,6) schedule(1,4,1,2) schedule(2,1,1,6) schedule(2,4,1,2) schedule(3,1,1,15) schedule(3,4,1,11) schedule(8,1,1,8) schedule(8,4,1,4) schedule(5,4,1,5) schedule(7,3,1,30)
+Optimization: 136
+Answer: 195
+schedule(4,4,1,7) schedule(4,3,1,11) schedule(6,4,1,17) schedule(6,1,1,21) schedule(6,3,1,22) schedule(9,4,1,7) schedule(9,3,1,11) schedule(10,4,1,5) schedule(10,1,1,9) schedule(10,3,1,13) schedule(1,1,1,6) schedule(1,4,1,2) schedule(2,1,1,6) schedule(2,4,1,2) schedule(3,1,1,15) schedule(3,4,1,11) schedule(8,1,1,8) schedule(8,4,1,4) schedule(5,4,1,5) schedule(7,3,1,30)
+Optimization: 135
+SATISFIABLE
+
+TIME LIMIT   : 1
+Models       : 195+
+  Optimum    : unknown
+Optimization : 135
+Calls        : 1
+Time         : 300.013s (Solving: 296.23s 1st Model: 0.03s Unsat: 0.00s)
+CPU Time     : 245.411s
+
+

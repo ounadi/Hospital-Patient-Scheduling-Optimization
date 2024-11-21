@@ -1,0 +1,7 @@
+num_days = 5;
+num_time_slots = 60;
+num_patients = 1;
+num_visits = 1;
+duration = [1];
+lab_names = ["Radiography"];
+required = [| 1 |];
